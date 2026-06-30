@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1A3A5C"/>
+  <circle cx="200" cy="120" r="50" fill="none" stroke="#D4AF37" stroke-width="2" opacity="0.4"/>
+  <text x="200" y="130" text-anchor="middle" font-family="Inter" font-size="20" fill="#D4AF37" font-weight="700">Depot</text>
+  <text x="200" y="230" text-anchor="middle" font-family="Inter" font-size="12" fill="#FFFFFF" opacity="0.6">Service Image</text>
+</svg>

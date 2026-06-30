@@ -1,0 +1,10 @@
+import type { InputHTMLAttributes, ReactNode } from 'react';
+
+export interface InputProps
+  extends Omit<InputHTMLAttributes<HTMLInputElement>, 'size'> {
+  label?: string;
+  error?: string;
+  helperText?: string;
+  icon?: ReactNode;
+  containerClassName?: string;
+}

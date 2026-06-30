@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#0A1628"/>
+  <rect x="100" y="200" width="600" height="200" rx="12" fill="none" stroke="#D4AF37" stroke-width="2" opacity="0.3"/>
+  <text x="400" y="290" text-anchor="middle" font-family="Inter, sans-serif" font-size="42" font-weight="800" fill="#D4AF37" letter-spacing="4">PETRO BRIDGE</text>
+  <text x="400" y="340" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF" letter-spacing="8">SOLUTIONS</text>
+  <circle cx="650" cy="150" r="4" fill="#D4AF37" opacity="0.5"/>
+  <circle cx="680" cy="170" r="3" fill="#D4AF37" opacity="0.3"/>
+  <circle cx="200" cy="120" r="5" fill="#D4AF37" opacity="0.4"/>
+</svg>

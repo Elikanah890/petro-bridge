@@ -1,0 +1,14 @@
+export { default as Home } from './Home/Home';
+export { default as About } from './About/About';
+export { default as Services } from './Services/Services';
+export { default as HowWeWork } from './HowWeWork/HowWeWork';
+export { default as Industries } from './Industries/Industries';
+export { default as WhyChooseUs } from './WhyChooseUs/WhyChooseUs';
+export { default as FAQ } from './FAQ/FAQ';
+export { default as Contact } from './Contact/Contact';
+export { default as Resources } from './Resources/Resources';
+export { default as Clients } from './Clients/Clients';
+export { default as GettingStarted } from './GettingStarted/GettingStarted';
+export { default as PrivacyPolicy } from './PrivacyPolicy/PrivacyPolicy';
+export { default as TermsConditions } from './TermsConditions/TermsConditions';
+export { default as NotFound } from './NotFound/NotFound';

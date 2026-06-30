@@ -1,0 +1,179 @@
+{
+  "home": {
+    "title": "Petro Bridge Solutions | Uratibu wa Vifaa vya Mafuta Tanzania",
+    "metaDescription": "Kampuni ya kwanza Tanzania ya uratibu wa vifaa vya mafuta na uhakikisho wa usafirishaji. Mwonekano kamili wa msururu wa usambazaji na ufuatiliaji wa shehena kwa wakati halisi."
+  },
+  "nav": {
+    "home": "Nyumbani",
+    "about": "Kuhusu Sisi",
+    "services": "Huduma",
+    "howWeWork": "Jinsi Tunavyofanya",
+    "industries": "Sekta",
+    "whyChooseUs": "Kwanini Sisi",
+    "resources": "Rasilimali",
+    "contact": "Wasiliana",
+    "getStarted": "Anza Sasa",
+    "sub_about_story": "Hadithi Yetu",
+    "sub_about_mission": "Dhamira & Dira",
+    "sub_about_values": "Maadili",
+    "sub_about_team": "Timu Yetu",
+    "sub_about_founder": "Ujumbe Kutoka Kwa Petro",
+    "sub_services_qualification": "Uidhinishaji wa Wasafirishaji",
+    "sub_services_dispatch": "Uratibu wa Usafirishaji",
+    "sub_services_depot": "Usimamizi wa Depo",
+    "sub_services_monitoring": "Ufuatiliaji wa Shehena",
+    "sub_services_exception": "Usimamizi wa Hitilafu",
+    "sub_services_verification": "Uhakiki wa Usafirishaji",
+    "sub_services_reporting": "Uchambuzi na Ripoti",
+    "sub_industries_petroleum": "Masoko ya Mafuta",
+    "sub_industries_mining": "Madini na Uchimbaji",
+    "sub_industries_government": "Serikali na Umma",
+    "sub_industries_construction": "Ujenzi",
+    "sub_industries_manufacturing": "Viwanda",
+    "sub_industries_fuel": "Vituo vya Mafuta",
+    "sub_resources_blog": "Blogu na Maarifa",
+    "sub_resources_downloads": "Vipakuliwa",
+    "sub_resources_cases": "Uchunguzi Kesi",
+    "sub_resources_faq": "Maswali"
+  },
+  "hero": {
+    "label": "Uratibu wa Vifaa vya Mafuta",
+    "companyName": "Petro Bridge Solutions",
+    "title": "Kuunganisha Mafuta.",
+    "titleHighlight": "Kujenga Uaminifu.",
+    "subtitle": "Kampuni ya kwanza nchini Tanzania ya uratibu wa vifaa vya mafuta na uhakikisho wa usafirishaji. Tunaunganisha wauzaji, wasafirishaji, na watumiaji kwa jukwaa moja jumuishi la udhibiti kamili wa msururu wa usambazaji.",
+    "ctaPrimary": "Omba Uratibu",
+    "ctaSecondary": "Chunguza Mchakato Wetu",
+    "scrollIndicator": "Tembeza kugundua"
+  },
+  "trustBar": {
+    "title": "Wanaoaminiwa na Makampuni Makubwa Tanzania"
+  },
+  "about": {
+    "title": "Kuhusu Petro Bridge Solutions",
+    "label": "Kuhusu Sisi",
+    "subtitle": "Kuunganisha wauzaji wa mafuta, wasafirishaji, na wateja kupitia uratibu wa kitaalamu wa vifaa",
+    "description": "Petro Bridge Solutions ni mamlaka ya kuaminika ya uratibu wa vifaa vya mafuta nchini Tanzania. Tunatoa huduma kamili za usimamizi wa vifaa zinazohakikisha bidhaa za mafuta zinasafiri kwa usalama, ufanisi, na uwazi kutoka chanzo hadi mwisho.",
+    "founderTitle": "Ujumbe Kutoka Kwa Petro",
+    "founderMessage": "Sekta ya vifaa vya mafuta inaleta changamoto ambayo haizungumzwi moja kwa moja - lakini inahisiwa kila siku na wauzaji wa mafuta, wasafirishaji, na watumiaji kote Tanzania. Petro Bridge Solutions ilianzishwa ili kuunganisha pengo hili kwa jukwaa moja jumuishi la udhibiti kamili wa msururu wa usambazaji.",
+    "founderName": "Petro",
+    "founderRole": "Mwanzilishi & Mkurugenzi",
+    "missionTitle": "Dhamira Yetu",
+    "missionText": "Kutoa sekta ya mafuta Tanzania uratibu wa vifaa ulio wazi, bora, na wa kuaminika unaoboresha misururu ya usambazaji na kujenga uaminifu wa kudumu.",
+    "visionTitle": "Dira Yetu",
+    "visionText": "Kuwa mamlaka inayoaminika zaidi ya uratibu wa vifaa vya mafuta Afrika Mashariki, ikiweka kiwango cha ubora wa uendeshaji, uwazi, na uvumbuzi.",
+    "learnMore": "Jifunze Zaidi Kuhusu Sisi"
+  },
+  "services": {
+    "title": "Tunachofanya",
+    "subtitle": "Uratibu kamili wa vifaa vya mafuta - kutoka uidhinishaji wa wasafirishaji hadi uhakiki wa usafirishaji",
+    "learnMore": "Jifunze Zaidi"
+  },
+  "dashboard": {
+    "title": "Vifaa Vyako, Vinavyoonekana Kikamilifu",
+    "subtitle": "Kituo kimoja cha uratibu kwa msururu wako mzima wa usambazaji wa mafuta"
+  },
+  "statistics": {
+    "title": "Kwa Namba"
+  },
+  "industries": {
+    "title": "Sekta Tunazohudumia",
+    "subtitle": "Suluhisho za uratibu wa vifaa zilizoboreshwa kwa kila sekta inayotegemea mafuta"
+  },
+  "whyUs": {
+    "title": "Faida ya Petro Bridge",
+    "subtitle": "Kwanini Uchague Petro Bridge",
+    "description": "Sababu nane za kulazimisha kwanini makampuni makubwa Tanzania yanatuamini kwa uratibu wa vifaa vyao vya mafuta"
+  },
+  "process": {
+    "title": "Mchakato Wetu",
+    "subtitle": "Mchakato wetu uliothibitishwa wa hatua tano unahakikisha uratibu mzuri wa vifaa kutoka mwanzo hadi mwisho"
+  },
+  "testimonials": {
+    "title": "Hadithi za Wateja",
+    "subtitle": "Wateja Wanasema Nini",
+    "description": "Sikia kutoka kwa makampuni yanayotegemea Petro Bridge Solutions kwa uratibu wao wa vifaa vya mafuta"
+  },
+  "faq": {
+    "title": "Maswali Yanayoulizwa Mara kwa Mara",
+    "subtitle": "Kila kitu unachohitaji kujua kuhusu huduma zetu, mchakato, na jukwaa letu"
+  },
+  "newsletter": {
+    "title": "Pata Taarifa",
+    "subtitle": "Jiandikishe kwa jarida letu kwa maarifa ya sekta na sasisho za kampuni",
+    "placeholder": "Ingiza anwani yako ya barua pepe",
+    "button": "Jiandikishe",
+    "privacy": "Tunaheshimu faragha yako. Unaweza kujiondoa wakati wowote.",
+    "success": "Asante kwa kujiandikisha!",
+    "error": "Tafadhali ingiza anwani sahihi ya barua pepe"
+  },
+  "cta": {
+    "title": "Wacha Tufanye Kazi Pamoja",
+    "subtitle": "Uko Tayari Kubadilisha Vifaa Vyako vya Mafuta?",
+    "description": "Shirikiana na mamlaka ya uratibu wa vifaa vya mafuta ya Tanzania.",
+    "startNow": "Anza Sasa",
+    "callUs": "Tupigie Simu"
+  },
+  "contact": {
+    "title": "Wasiliana Nasi",
+    "subtitle": "Uko tayari kulinda msururu wako wa usambazaji wa mafuta? Tuko hapa kusaidia.",
+    "cta": "Wasiliana Nasi",
+    "address": "Dar es Salaam, Tanzania",
+    "phone_number": "+255 123 456 789",
+    "email_address": "info@petrobridgesolutions.co.tz",
+    "form_name": "Jina Kamili",
+    "form_company": "Jina la Kampuni",
+    "form_email": "Anwani ya Barua Pepe",
+    "form_phone": "Nambari ya Simu",
+    "form_message": "Ujumbe",
+    "form_submit": "Tuma Ujumbe",
+    "form_success": "Asante! Tutajibu ndani ya saa 24.",
+    "hours_title": "Saa za Kazi",
+    "hours_weekday": "Jumatatu - Ijumaa: 8:00 AM - 6:00 PM EAT",
+    "hours_saturday": "Jumamosi: 8:00 AM - 1:00 PM EAT",
+    "hours_sunday": "Jumapili: Imefungwa"
+  },
+  "footer": {
+    "description": "Kampuni ya kwanza Tanzania ya uratibu wa vifaa vya mafuta na uhakikisho wa usafirishaji. Kuunganisha wauzaji, wasafirishaji, na wateja.",
+    "section_services": "Huduma",
+    "section_company": "Kampuni",
+    "section_resources": "Rasilimali",
+    "section_legal": "Kisheria",
+    "link_carrier": "Uidhinishaji wa Wasafirishaji",
+    "link_dispatch": "Uratibu wa Usafirishaji",
+    "link_monitoring": "Ufuatiliaji wa Shehena",
+    "link_verification": "Uhakiki wa Usafirishaji",
+    "link_reporting": "Uchambuzi na Ripoti",
+    "link_about": "Kuhusu Sisi",
+    "link_how": "Jinsi Tunavyofanya",
+    "link_industries": "Sekta",
+    "link_why": "Kwanini Sisi",
+    "link_clients": "Hadithi za Wateja",
+    "link_faq": "Maswali",
+    "link_blog": "Blogu na Maarifa",
+    "link_started": "Kuanza",
+    "link_downloads": "Vipakuliwa",
+    "link_contact": "Wasiliana Nasi",
+    "link_privacy": "Sera ya Faragha",
+    "link_terms": "Masharti na Kanuni",
+    "link_sitemap": "Ramani ya Tovuti",
+    "newsletter_title": "Pata Taarifa",
+    "newsletter_text": "Pata maarifa ya hivi karibuni kuhusu vifaa vya mafuta, uhakikisho wa usafirishaji, na mwenendo wa sekta Tanzania.",
+    "newsletter_placeholder": "Anwani yako ya barua pepe",
+    "newsletter_button": "Jiandikishe",
+    "newsletter_success": "Asante kwa kujiandikisha kwa taarifa za Petro Bridge.",
+    "copyright": " 2026 Petro Bridge Solutions. Haki zote zimehifadhiwa."
+  },
+  "notFound": {
+    "title": "Ukurasa Haupatikani",
+    "subtitle": "Ukurasa unaotafuta haupo",
+    "home": "Rudi Nyumbani",
+    "contact": "Wasiliana Nasi"
+  },
+  "common": {
+    "loading": "Inapakia...",
+    "error": "Hitilafu imetokea. Tafadhali jaribu tena.",
+    "backToTop": "Rudi Juu",
+    "whatsapp": "Ongea nasi kwenye WhatsApp"
+  }
+}

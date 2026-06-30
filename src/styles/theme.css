@@ -1,0 +1,53 @@
+:root {
+  --color-navy-50: #E8EDF3;
+  --color-navy-100: #C5D0DE;
+  --color-navy-200: #9EADC4;
+  --color-navy-300: #778BAA;
+  --color-navy-400: #5A7296;
+  --color-navy-500: #3E5982;
+  --color-navy-600: #1E3A5F;
+  --color-navy-700: #1A3A5C;
+  --color-navy-800: #0B1A33;
+  --color-navy-900: #0A1628;
+  --color-navy-950: #060E1A;
+
+  --color-gold-50: #FDF8EE;
+  --color-gold-100: #F9EDCC;
+  --color-gold-200: #F3DE99;
+  --color-gold-300: #EBCB66;
+  --color-gold-400: #E4B833;
+  --color-gold-500: #D4AF37;
+  --color-gold-600: #C9A84C;
+  --color-gold-700: #B8942F;
+  --color-gold-800: #967826;
+  --color-gold-900: #745D1E;
+
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #F5F7FA;
+  --color-bg-tertiary: #E8EDF3;
+  --color-text-primary: #1A1A2E;
+  --color-text-secondary: #4A5568;
+  --color-text-tertiary: #718096;
+  --color-border: #E2E8F0;
+  --color-border-hover: #CBD5E0;
+  --color-card-bg: #FFFFFF;
+  --color-card-shadow: rgba(0, 0, 0, 0.06);
+  --color-card-shadow-hover: rgba(0, 0, 0, 0.12);
+
+  --transition-theme: 0.3s ease;
+  --transition-smooth: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dark {
+  --color-bg-primary: #0A0A1A;
+  --color-bg-secondary: #0F1629;
+  --color-bg-tertiary: #1A1A2E;
+  --color-text-primary: #E0E0E0;
+  --color-text-secondary: #A0AEC0;
+  --color-text-tertiary: #718096;
+  --color-border: #2D3748;
+  --color-border-hover: #4A5568;
+  --color-card-bg: #1A1A2E;
+  --color-card-shadow: rgba(0, 0, 0, 0.3);
+  --color-card-shadow-hover: rgba(0, 0, 0, 0.5);
+}
