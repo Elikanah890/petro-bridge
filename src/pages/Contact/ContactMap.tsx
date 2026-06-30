@@ -20,7 +20,7 @@ function ContactMap() {
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="Petro Bridge Solutions Office Location"
+          title={t('contact.mapTitle', 'Petro Bridge Solutions Office Location')}
           className="w-full h-full"
         />
       </div>

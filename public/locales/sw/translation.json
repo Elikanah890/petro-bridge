@@ -66,37 +66,60 @@
   },
   "services": {
     "title": "Tunachofanya",
+    "label": "Tunachofanya",
     "subtitle": "Uratibu kamili wa vifaa vya mafuta - kutoka uidhinishaji wa wasafirishaji hadi uhakiki wa usafirishaji",
-    "learnMore": "Jifunze Zaidi"
+    "learnMore": "Jifunze Zaidi",
+    "pageTitle": "Huduma Zetu | Petro Bridge Solutions",
+    "metaDescription": "Huduma kamili za uratibu wa vifaa vya mafuta — uidhinishaji wa wasafirishaji, uratibu wa usafirishaji, usimamizi wa depo, ufuatiliaji wa shehena, uhakiki wa usafirishaji, na uchambuzi.",
+    "heroLabel": "Tunachofanya",
+    "heroTitle": "Huduma Zetu",
+    "heroSubtitle": "Uratibu kamili wa vifaa vya mafuta — kutoka uidhinishaji wa wasafirishaji na mipango ya usafirishaji hadi ufuatiliaji wa wakati halisi, uhakiki wa usafirishaji, na uchambuzi wa kina. Kila huduma imeundwa kukupa udhibiti kamili, mwonekano, na amani ya akili.",
+    "detailTitle": "Maelezo ya Huduma",
+    "detailSubtitle": "Chunguza kila huduma kwa kina — vipengele, faida, na jinsi zinavyofanya kazi pamoja kutoa uratibu mzuri wa vifaa.",
+    "features": "Vipengele",
+    "benefits": "Faida"
   },
   "dashboard": {
     "title": "Vifaa Vyako, Vinavyoonekana Kikamilifu",
-    "subtitle": "Kituo kimoja cha uratibu kwa msururu wako mzima wa usambazaji wa mafuta"
+    "label": "Jukwaa Moja kwa Moja",
+    "subtitle": "Kituo kimoja cha uratibu kwa msururu wako mzima wa usambazaji wa mafuta — ufuatiliaji wa shehena kwa wakati halisi, ufuatiliaji wa njia, na uhakiki wa usafirishaji kwa mtazamo mmoja.",
+    "consoleTitle": "Petro Bridge — Kituo cha Uendeshaji",
+    "systemLive": "Mfumo Hai",
+    "activeShipments": "Shehena Zinazoendelea",
+    "kpiActive": "Shehena Zinazoendelea",
+    "kpiTransit": "Safarini (L)",
+    "kpiExceptions": "Hitilafu"
   },
   "statistics": {
     "title": "Kwa Namba"
   },
   "industries": {
     "title": "Sekta Tunazohudumia",
+    "label": "Sekta Tunazohudumia",
     "subtitle": "Suluhisho za uratibu wa vifaa zilizoboreshwa kwa kila sekta inayotegemea mafuta"
   },
   "whyUs": {
     "title": "Faida ya Petro Bridge",
+    "label": "Faida ya Petro Bridge",
     "subtitle": "Kwanini Uchague Petro Bridge",
     "description": "Sababu nane za kulazimisha kwanini makampuni makubwa Tanzania yanatuamini kwa uratibu wa vifaa vyao vya mafuta"
   },
   "process": {
     "title": "Mchakato Wetu",
+    "label": "Mchakato Wetu",
     "subtitle": "Mchakato wetu uliothibitishwa wa hatua tano unahakikisha uratibu mzuri wa vifaa kutoka mwanzo hadi mwisho"
   },
   "testimonials": {
     "title": "Hadithi za Wateja",
+    "label": "Hadithi za Wateja",
     "subtitle": "Wateja Wanasema Nini",
     "description": "Sikia kutoka kwa makampuni yanayotegemea Petro Bridge Solutions kwa uratibu wao wa vifaa vya mafuta"
   },
   "faq": {
     "title": "Maswali Yanayoulizwa Mara kwa Mara",
-    "subtitle": "Kila kitu unachohitaji kujua kuhusu huduma zetu, mchakato, na jukwaa letu"
+    "label": "Maswali",
+    "subtitle": "Kila kitu unachohitaji kujua kuhusu huduma zetu, mchakato, na jukwaa letu",
+    "viewAll": "Tazama Maswali Yote"
   },
   "newsletter": {
     "title": "Pata Taarifa",
@@ -108,11 +131,13 @@
     "error": "Tafadhali ingiza anwani sahihi ya barua pepe"
   },
   "cta": {
-    "title": "Wacha Tufanye Kazi Pamoja",
-    "subtitle": "Uko Tayari Kubadilisha Vifaa Vyako vya Mafuta?",
-    "description": "Shirikiana na mamlaka ya uratibu wa vifaa vya mafuta ya Tanzania.",
+    "title": "Uko Tayari Kubadilisha Vifaa Vyako vya Mafuta?",
+    "label": "Wacha Tufanye Kazi Pamoja",
+    "description": "Shirikiana na mamlaka ya uratibu wa vifaa vya mafuta ya Tanzania. Hebu tujenge msururu wa usambazaji wa mafuta wenye akili zaidi, uwazi, na wa kuaminika zaidi pamoja.",
     "startNow": "Anza Sasa",
-    "callUs": "Tupigie Simu"
+    "callUs": "Tupigie Simu",
+    "emailUs": "Tutumie Barua Pepe",
+    "visitUs": "Tutembelee"
   },
   "contact": {
     "title": "Wasiliana Nasi",
@@ -121,17 +146,33 @@
     "address": "Dar es Salaam, Tanzania",
     "phone_number": "+255 123 456 789",
     "email_address": "info@petrobridgesolutions.co.tz",
-    "form_name": "Jina Kamili",
-    "form_company": "Jina la Kampuni",
-    "form_email": "Anwani ya Barua Pepe",
-    "form_phone": "Nambari ya Simu",
-    "form_message": "Ujumbe",
-    "form_submit": "Tuma Ujumbe",
-    "form_success": "Asante! Tutajibu ndani ya saa 24.",
+    "fullName": "Jina Kamili",
+    "fullNamePlaceholder": "Ingiza jina lako kamili",
+    "company": "Jina la Kampuni",
+    "companyPlaceholder": "Jina la kampuni yako",
+    "email": "Anwani ya Barua Pepe",
+    "phone": "Nambari ya Simu",
+    "serviceInterest": "Huduma Unayovutiwa",
+    "message": "Ujumbe",
+    "messagePlaceholder": "Tuambie kuhusu mahitaji yako ya vifaa vya mafuta...",
+    "formTitle": "Tutumie Ujumbe",
+    "formSubtitle": "Jaza fomu hapa chini na timu yetu itakujibu ndani ya saa 24.",
+    "selectService": "Chagua huduma",
+    "sendWhatsApp": "Tuma kupitia WhatsApp",
+    "whatsappLabel": "Habari Petro Bridge Solutions",
+    "whatsappFooter": "Ningependa kujadili mahitaji yangu ya vifaa vya mafuta.",
+    "whatsappThanks": "Asante.",
+    "sent": "Ujumbe Umetumwa!",
     "hours_title": "Saa za Kazi",
     "hours_weekday": "Jumatatu - Ijumaa: 8:00 AM - 6:00 PM EAT",
     "hours_saturday": "Jumamosi: 8:00 AM - 1:00 PM EAT",
-    "hours_sunday": "Jumapili: Imefungwa"
+    "hours_sunday": "Jumapili: Imefungwa",
+    "mapTitle": "Eneo la Ofisi ya Petro Bridge Solutions",
+    "pageTitle": "Wasiliana Nasi | Petro Bridge Solutions",
+    "metaDescription": "Wasiliana na Petro Bridge Solutions — kampuni ya kwanza Tanzania ya uratibu wa vifaa vya mafuta. Wasiliana nasi kwa maswali, maombi ya huduma, au fursa za ushirikiano.",
+    "heroLabel": "Wasiliana Nasi",
+    "heroTitle": "Wasiliana Nasi",
+    "heroSubtitle": "Uko tayari kubadilisha vifaa vyako vya mafuta? Una swali kuhusu huduma zetu? Timu yetu iko hapa kusaidia. Wasiliana nasi na tuanze mazungumzo."
   },
   "footer": {
     "description": "Kampuni ya kwanza Tanzania ya uratibu wa vifaa vya mafuta na uhakikisho wa usafirishaji. Kuunganisha wauzaji, wasafirishaji, na wateja.",

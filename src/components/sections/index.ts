@@ -6,7 +6,6 @@ export * from './ProcessPreview';
 export * from './Industries';
 export * from './WhyChooseUs';
 export * from './DashboardPreview';
-export * from './Statistics';
 export * from './Testimonials';
 export * from './FAQPreview';
 export * from './Newsletter';

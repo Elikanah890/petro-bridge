@@ -149,6 +149,3 @@ export const clients: Client[] = [
     industry: 'mining',
   },
 ];
-
-export const getIndustryById = (id: string): Industry | undefined =>
-  industries.find((i) => i.id === id);

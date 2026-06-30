@@ -10,12 +10,6 @@ import { Logo } from '@/components/shared/Logo/Logo';
 import { SocialIcons } from '@/components/shared/SocialIcons/SocialIcons';
 import type { FooterProps } from './Footer.types';
 
-const legalLinks = [
-  { label: 'footer.link_privacy', href: '/privacy-policy' },
-  { label: 'footer.link_terms', href: '/terms-conditions' },
-  { label: 'footer.link_sitemap', href: '/sitemap' },
-];
-
 export function Footer({ className }: FooterProps) {
   const [email, setEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);
@@ -130,18 +124,6 @@ export function Footer({ className }: FooterProps) {
             {t('footer.copyright')}
           </p>
           <div className="flex items-center gap-6">
-            <ul className="flex items-center gap-5 text-sm">
-              {legalLinks.map((link) => (
-                <li key={link.href}>
-                  <Link
-                    to={link.href}
-                    className="text-navy-300 transition-colors hover:text-gold-400"
-                  >
-                    {t(link.label)}
-                  </Link>
-                </li>
-              ))}
-            </ul>
             <SocialIcons variant="solid" />
           </div>
         </Container>

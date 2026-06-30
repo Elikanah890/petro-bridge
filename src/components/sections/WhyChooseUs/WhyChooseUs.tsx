@@ -13,7 +13,7 @@ export function WhyChooseUs({ className }: WhyChooseUsProps) {
     <Section id="why-us" className={cn('bg-white dark:bg-navy-950', className)}>
       <Container>
         <SectionHeader
-          label="The Petro Bridge Advantage"
+          label={t('whyUs.label')}
           title={t('whyUs.title')}
           subtitle={t('whyUs.subtitle')}
         />

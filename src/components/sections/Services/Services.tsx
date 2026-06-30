@@ -16,7 +16,7 @@ export function Services({ className }: ServicesProps) {
     >
       <Container>
         <SectionHeader
-          label="What We Do"
+          label={t('services.label')}
           title={t('services.title')}
           subtitle={t('services.subtitle')}
         />

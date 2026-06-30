@@ -7,8 +7,6 @@ import MissionVision from './MissionVision';
 import CoreValues from './CoreValues';
 import FounderMessage from './FounderMessage';
 import BusinessStructure from './BusinessStructure';
-import OperatingTerritory from './OperatingTerritory';
-import Milestones from './Milestones';
 
 function About() {
   const { t } = useTranslation();
@@ -46,8 +44,6 @@ function About() {
         <CoreValues />
         <FounderMessage />
         <BusinessStructure />
-        <OperatingTerritory />
-        <Milestones />
       </PageTransition>
     </>
   );

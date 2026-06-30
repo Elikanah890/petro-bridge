@@ -13,19 +13,19 @@ export function ContactCTA({ className }: ContactCTAProps) {
   const contactItems = [
     {
       Icon: Phone,
-      label: 'Call Us',
+      label: t('cta.callUs'),
       value: t('contact.phone_number'),
       href: `tel:${SITE_CONFIG.phone.replace(/\s+/g, '')}`,
     },
     {
       Icon: Mail,
-      label: 'Email Us',
+      label: t('cta.emailUs'),
       value: t('contact.email_address'),
       href: `mailto:${SITE_CONFIG.email}`,
     },
     {
       Icon: MapPin,
-      label: 'Visit Us',
+      label: t('cta.visitUs'),
       value: t('contact.address'),
       href: undefined,
     },
@@ -53,14 +53,13 @@ export function ContactCTA({ className }: ContactCTAProps) {
       <Container className="relative">
         <FadeInUp className="mx-auto max-w-3xl text-center">
           <span className="text-xs font-semibold uppercase tracking-[0.22em] text-gold-400">
-            Let's Work Together
+            {t('cta.label')}
           </span>
           <h2 className="mt-5 text-balance text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
-            Ready to Transform Your Fuel Logistics?
+            {t('cta.title')}
           </h2>
           <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-navy-100/75 sm:text-lg">
-            Partner with Tanzania's petroleum logistics coordination authority. Let's build a
-            smarter, more transparent, and more reliable fuel supply chain together.
+            {t('cta.description')}
           </p>
 
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">

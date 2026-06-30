@@ -30,16 +30,14 @@ function OperatingTerritory() {
             {t('about.territoryIntro', 'Petro Bridge Solutions provides nationwide petroleum logistics coordination coverage across all regions of mainland Tanzania and Zanzibar. Our strategic presence spans all major transport corridors, fuel depots, and consumption centers, ensuring no client location is beyond our reach.')}
           </p>
           <p className="text-navy-300 leading-relaxed mb-8">
-            {t('about.territoryNetwork', 'Through our network of 150+ pre-qualified carriers strategically positioned across the country, we can coordinate fuel deliveries to any location — from the busiest retail stations in Dar es Salaam to the most remote mining sites in Geita, and from the port terminals in Tanga to the government facilities in Dodoma.')}
+            {t('about.territoryNetwork', 'Through our network of pre-qualified carriers strategically positioned across the country, we can coordinate fuel deliveries to any location — from the busiest retail stations in Dar es Salaam to the most remote mining sites in Geita, and from the port terminals in Tanga to the government facilities in Dodoma.')}
           </p>
           <div className="inline-flex items-center gap-2 bg-navy-800 border border-navy-700 rounded-xl px-5 py-3 mb-8">
             <svg className="w-5 h-5 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
             </svg>
-            <p className="text-gold-500 font-bold text-sm">{t('about.coverage', 'Nationwide Coverage')}</p>
-            <span className="text-navy-400 mx-1">—</span>
-            <p className="text-navy-300 text-sm">{t('about.regionsCount', 'All 31 regions of Tanzania')}</p>
+            <p className="text-gold-500 font-bold text-sm">{t('about.coverage', 'All regions of Tanzania')}</p>
           </div>
           <ul className="grid sm:grid-cols-2 gap-3 text-left">
             {regions.map((r) => (

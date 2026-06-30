@@ -1,4 +1,4 @@
-import { Activity, Boxes, Gauge, ShieldCheck } from 'lucide-react';
+import { Activity, Boxes, ShieldCheck } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Container, Section } from '@/components/shared';
 import { FadeInUp } from '@/components/animations';
@@ -52,15 +52,14 @@ const stages: TimelineStage[] = [
   { label: 'Delivery & e-POD', time: 'ETA 14:20 · Mwanza', state: 'pending' },
 ];
 
-const kpis = [
-  { Icon: Activity, label: 'Active Shipments', value: '42' },
-  { Icon: Gauge, label: 'On-Time Rate', value: '99.7%' },
-  { Icon: Boxes, label: 'In Transit (L)', value: '1.2M' },
-  { Icon: ShieldCheck, label: 'Exceptions', value: '0' },
-];
-
 export function DashboardPreview({ className }: { className?: string }) {
   const { t } = useTranslation();
+
+  const kpis = [
+    { Icon: Activity, label: t('dashboard.kpiActive'), value: '42' },
+    { Icon: Boxes, label: t('dashboard.kpiTransit'), value: '1.2M' },
+    { Icon: ShieldCheck, label: t('dashboard.kpiExceptions'), value: '0' },
+  ];
   return (
     <Section
       id="platform"
@@ -72,14 +71,13 @@ export function DashboardPreview({ className }: { className?: string }) {
       <Container>
         <FadeInUp className="mx-auto max-w-2xl text-center">
           <span className="text-xs font-semibold uppercase tracking-[0.22em] text-gold-400">
-            Live Platform
+            {t('dashboard.label')}
           </span>
           <h2 className="mt-3 sm:mt-4 text-2xl font-bold tracking-tight text-white sm:text-3xl lg:text-4xl">
             {t('dashboard.title')}
           </h2>
           <p className="mt-4 sm:mt-5 text-sm leading-relaxed text-navy-100/75 sm:text-base">
-            One coordination console for your entire fuel supply chain — real-time shipment
-            tracking, live route monitoring, and delivery verification at a glance.
+            {t('dashboard.subtitle')}
           </p>
         </FadeInUp>
 
@@ -92,18 +90,18 @@ export function DashboardPreview({ className }: { className?: string }) {
                 <span className="h-3 w-3 rounded-full bg-emerald-400/70" />
               </div>
               <p className="text-xs font-medium text-navy-100/70">
-                Petro Bridge — Operations Console
+                {t('dashboard.consoleTitle')}
               </p>
               <span className="flex items-center gap-1.5 text-[11px] font-medium text-emerald-400">
                 <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
-                System Live
+                {t('dashboard.systemLive')}
               </span>
             </div>
 
             <div className="grid gap-5 p-5 lg:grid-cols-[minmax(0,340px)_1fr]">
               <div className="space-y-4">
                 <p className="px-1 text-[11px] font-semibold uppercase tracking-wider text-navy-300">
-                  Active Shipments
+                  {t('dashboard.activeShipments')}
                 </p>
                 {shipments.map((shipment) => (
                   <ShipmentCard

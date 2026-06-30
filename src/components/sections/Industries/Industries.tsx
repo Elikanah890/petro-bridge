@@ -16,7 +16,7 @@ export function Industries({ className }: IndustriesProps) {
     >
       <Container>
         <SectionHeader
-          label="Sectors We Power"
+          label={t('industries.label')}
           title={t('industries.title')}
           subtitle={t('industries.subtitle')}
         />

@@ -30,30 +30,8 @@ export const mainNavigation: NavItem[] = [
     href: '/how-we-work',
   },
   {
-    label: 'nav.industries',
-    href: '/industries',
-    children: [
-      { label: 'nav.sub_industries_petroleum', href: '/industries#petroleum' },
-      { label: 'nav.sub_industries_mining', href: '/industries#mining' },
-      { label: 'nav.sub_industries_government', href: '/industries#government' },
-      { label: 'nav.sub_industries_construction', href: '/industries#construction' },
-      { label: 'nav.sub_industries_manufacturing', href: '/industries#manufacturing' },
-      { label: 'nav.sub_industries_fuel', href: '/industries#fuel-stations' },
-    ],
-  },
-  {
     label: 'nav.whyChooseUs',
     href: '/why-choose-us',
-  },
-  {
-    label: 'nav.resources',
-    href: '/resources',
-    children: [
-      { label: 'nav.sub_resources_blog', href: '/resources#blog' },
-      { label: 'nav.sub_resources_downloads', href: '/resources#downloads' },
-      { label: 'nav.sub_resources_cases', href: '/resources#case-studies' },
-      { label: 'nav.sub_resources_faq', href: '/faq' },
-    ],
   },
   { label: 'nav.contact', href: '/contact' },
 ];
@@ -74,7 +52,6 @@ export const footerLinks: FooterLinkGroup[] = [
     links: [
       { label: 'footer.link_about', href: '/about' },
       { label: 'footer.link_how', href: '/how-we-work' },
-      { label: 'footer.link_industries', href: '/industries' },
       { label: 'footer.link_why', href: '/why-choose-us' },
       { label: 'footer.link_clients', href: '/clients' },
     ],
@@ -83,24 +60,13 @@ export const footerLinks: FooterLinkGroup[] = [
     title: 'footer.section_resources',
     links: [
       { label: 'footer.link_faq', href: '/faq' },
-      { label: 'footer.link_blog', href: '/resources' },
       { label: 'footer.link_started', href: '/getting-started' },
-      { label: 'footer.link_downloads', href: '/resources#downloads' },
       { label: 'footer.link_contact', href: '/contact' },
-    ],
-  },
-  {
-    title: 'footer.section_legal',
-    links: [
-      { label: 'footer.link_privacy', href: '/privacy-policy' },
-      { label: 'footer.link_terms', href: '/terms-conditions' },
     ],
   },
 ];
 
 export const socialLinks: SocialLink[] = [
-  { platform: 'linkedin', href: 'https://linkedin.com/company/petro-bridge', label: 'LinkedIn' },
-  { platform: 'twitter', href: 'https://twitter.com/petrobridge', label: 'Twitter' },
   { platform: 'facebook', href: 'https://facebook.com/petrobridge', label: 'Facebook' },
   { platform: 'instagram', href: 'https://instagram.com/petrobridge', label: 'Instagram' },
   { platform: 'whatsapp', href: 'https://wa.me/255123456789', label: 'WhatsApp' },

@@ -11,7 +11,7 @@ function Partnerships() {
     },
     {
       name: t('clients.partnership.carrierTitle', 'Carrier Network'),
-      desc: t('clients.partnership.carrierDesc', 'Strategic partnerships with 150+ pre-qualified petroleum transporters across all Tanzanian regions, ensuring capacity and coverage at scale.'),
+      desc: t('clients.partnership.carrierDesc', 'Strategic partnerships with pre-qualified petroleum transporters across all Tanzanian regions, ensuring capacity and coverage at scale.'),
     },
     {
       name: t('clients.partnership.techTitle', 'Technology Partners'),

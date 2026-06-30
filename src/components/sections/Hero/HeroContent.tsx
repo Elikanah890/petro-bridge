@@ -2,14 +2,7 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { cn } from '@/lib/helpers';
 import { HeroButtons } from './HeroButtons';
-import type { HeroContentProps, HeroStat } from './Hero.types';
-
-const stats: HeroStat[] = [
-  { value: '500M+', label: 'Liters' },
-  { value: '150+', label: 'Carriers' },
-  { value: '99.7%', label: 'On-Time' },
-  { value: '8+', label: 'Years' },
-];
+import type { HeroContentProps } from './Hero.types';
 
 const container = {
   hidden: {},
@@ -62,20 +55,6 @@ export function HeroContent({ className }: HeroContentProps) {
       >
         {t('hero.subtitle')}
       </motion.p>
-
-      <motion.div
-        variants={item}
-        className="mt-6 sm:mt-10 grid w-full max-w-2xl grid-cols-2 gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm sm:grid-cols-4"
-      >
-        {stats.map((stat) => (
-          <div key={stat.label} className="flex flex-col items-center px-3 py-4 sm:px-4 sm:py-5">
-            <span className="text-xl font-bold text-gold-400 sm:text-2xl md:text-3xl">{stat.value}</span>
-            <span className="mt-1 text-[10px] sm:text-xs font-medium uppercase tracking-wider text-navy-100/60">
-              {stat.label}
-            </span>
-          </div>
-        ))}
-      </motion.div>
 
       <motion.div variants={item} className="mt-10 w-full">
         <HeroButtons />

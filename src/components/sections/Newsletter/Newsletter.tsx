@@ -19,7 +19,7 @@ export function Newsletter({ className }: NewsletterProps) {
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!EMAIL_REGEX.test(email.trim())) {
-      setError('Please enter a valid email address.');
+      setError(t('newsletter.error'));
       return;
     }
     setError('');

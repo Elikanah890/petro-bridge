@@ -28,7 +28,7 @@ export function ProcessPreview({ className }: ProcessPreviewProps) {
     <Section id="process" className={cn('bg-white dark:bg-navy-950', className)}>
       <Container>
         <SectionHeader
-          label="Our Process"
+          label={t('process.label')}
           title={t('process.title')}
           subtitle={t('process.subtitle')}
         />

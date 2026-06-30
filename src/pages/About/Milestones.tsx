@@ -10,17 +10,17 @@ const milestones = [
   {
     year: '2019',
     title: 'First Major Client',
-    description: 'Secured our first enterprise client — a leading Tanzanian oil marketing company with over 50 retail stations. Developed the initial version of our proprietary logistics coordination platform.',
+    description: 'Secured our first enterprise client — a leading Tanzanian oil marketing company. Developed the initial version of our proprietary logistics coordination platform.',
   },
   {
     year: '2020',
     title: 'Platform Launch & Carrier Network Expansion',
-    description: 'Launched the first version of our digital coordination platform with real-time tracking capabilities. Expanded the carrier network to 40+ pre-qualified transporters. Despite the global pandemic, maintained 100% service reliability for all clients.',
+    description: 'Launched the first version of our digital coordination platform with real-time tracking capabilities. Expanded the carrier network with pre-qualified transporters. Despite the global pandemic, maintained 100% service reliability for all clients.',
   },
   {
     year: '2021',
     title: 'Multi-Industry Expansion',
-    description: 'Extended services beyond petroleum marketing to mining, construction, and manufacturing sectors. Opened 24/7 logistics coordination center. Carrier network grew to 80+ transporters.',
+    description: 'Extended services beyond petroleum marketing to mining, construction, and manufacturing sectors. Opened 24/7 logistics coordination center. Carrier network continued expanding across Tanzania.',
   },
   {
     year: '2022',
@@ -30,22 +30,22 @@ const milestones = [
   {
     year: '2023',
     title: 'Nationwide Coverage Achieved',
-    description: 'Achieved full nationwide coverage across all 31 regions of Tanzania including Zanzibar. Carrier network exceeded 120 pre-qualified transporters. Coordinated over 350 million liters of fuel annually.',
+    description: 'Achieved full nationwide coverage across all 31 regions of Tanzania including Zanzibar. Carrier network expanded with more pre-qualified transporters. Coordinated hundreds of millions of liters of fuel annually.',
   },
   {
     year: '2024',
     title: 'Government & Public Sector',
-    description: 'Secured contracts with government agencies and public institutions. Launched dedicated fuel logistics solutions for emergency response and disaster management. Team grew to 40+ logistics professionals.',
+    description: 'Secured contracts with government agencies and public institutions. Launched dedicated fuel logistics solutions for emergency response and disaster management. Team continued to grow.',
   },
   {
     year: '2025',
     title: 'Regional Growth & Innovation',
-    description: 'Expanded cross-border coordination capabilities to neighboring countries. Introduced IoT sensor integration for real-time temperature and condition monitoring. Coordinated over 500 million liters of fuel with 150+ carriers.',
+    description: 'Expanded cross-border coordination capabilities to neighboring countries. Introduced IoT sensor integration for real-time temperature and condition monitoring. Coordinated hundreds of millions of liters of fuel with a growing carrier network.',
   },
   {
     year: '2026',
     title: 'Industry Leadership',
-    description: 'Serving 35+ enterprise clients across six industries with a 99.7% on-time delivery rate and 100% client retention. Recognized as Tanzania\'s premier petroleum logistics coordination authority with plans for East African regional expansion.',
+    description: 'Serving enterprise clients across multiple industries with a strong on-time delivery track record and client retention. Recognized as a leading petroleum logistics coordination authority in Tanzania with plans for East African regional expansion.',
   },
 ];
 

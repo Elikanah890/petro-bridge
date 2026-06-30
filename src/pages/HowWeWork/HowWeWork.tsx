@@ -4,7 +4,6 @@ import { PageTransition } from '@/components/animations/PageTransition';
 import { motion } from 'framer-motion';
 import ProcessTimeline from './ProcessTimeline';
 import ProcessFlowchart from './ProcessFlowchart';
-import ProcessDemo from './ProcessDemo';
 
 function HowWeWork() {
   const { t } = useTranslation();
@@ -38,7 +37,6 @@ function HowWeWork() {
         </section>
         <ProcessTimeline />
         <ProcessFlowchart />
-        <ProcessDemo />
       </PageTransition>
     </>
   );

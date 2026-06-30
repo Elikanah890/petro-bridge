@@ -38,7 +38,7 @@ export const testimonials: Testimonial[] = [
     name: 'Mohammed Rashid',
     position: 'CEO',
     company: 'Coastal Petroleum Terminals',
-    content: 'What sets Petro Bridge apart is their deep understanding of both the petroleum industry and Tanzanian logistics challenges. They don\'t just provide technology — they bring genuine expertise and a partnership mindset. Their team worked closely with us to optimize our depot-to-station delivery network, resulting in 22% lower transport costs and 99.7% station uptime. Exceptional results.',
+    content: 'What sets Petro Bridge apart is their deep understanding of both the petroleum industry and Tanzanian logistics challenges. They don\'t just provide technology — they bring genuine expertise and a partnership mindset. Their team worked closely with us to optimize our depot-to-station delivery network, resulting in significantly lower transport costs and exceptional station uptime. Exceptional results.',
     rating: 5,
   },
   {

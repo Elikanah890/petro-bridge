@@ -16,7 +16,7 @@ export function Testimonials({ className }: TestimonialsProps) {
     >
       <Container>
         <SectionHeader
-          label="Client Stories"
+          label={t('testimonials.label')}
           title={t('testimonials.title')}
           subtitle={t('testimonials.subtitle')}
         />

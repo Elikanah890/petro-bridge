@@ -31,7 +31,7 @@ function ServiceDetail() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-50px' }}
               transition={{ duration: 0.6 }}
-              className={`grid lg:grid-cols-2 gap-12 items-center ${i % 2 === 1 ? 'lg:[direction:rtl]' : ''}`}
+              className={`${i % 2 === 1 ? 'lg:[direction:ltr]' : ''}`}
             >
               <div className={i % 2 === 1 ? 'lg:[direction:ltr]' : ''}>
                 <span className="inline-block text-gold-500 font-semibold text-sm uppercase tracking-wider mb-3">
@@ -73,15 +73,6 @@ function ServiceDetail() {
                       ))}
                     </ul>
                   </div>
-                </div>
-              </div>
-              <div className={`relative ${i % 2 === 1 ? 'lg:[direction:ltr]' : ''}`}>
-                <div className="aspect-[4/3] rounded-2xl bg-navy-100 dark:bg-navy-700 overflow-hidden">
-                  <img
-                    src={service.image || '/images/general/placeholder.jpg'}
-                    alt={service.title}
-                    className="w-full h-full object-cover"
-                  />
                 </div>
               </div>
             </motion.div>

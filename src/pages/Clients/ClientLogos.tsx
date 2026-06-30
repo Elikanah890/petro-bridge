@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { clients } from '@/data/industries';
+import { clients } from '@/data/clients';
 
 function ClientLogos() {
   const { t } = useTranslation();

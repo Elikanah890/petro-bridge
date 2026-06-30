@@ -3,8 +3,6 @@ import { useTranslation } from 'react-i18next';
 import { PageTransition } from '@/components/animations/PageTransition';
 import { motion } from 'framer-motion';
 import BenefitsList from './BenefitsList';
-import ComparisonTable from './ComparisonTable';
-import TrustIndicators from './TrustIndicators';
 
 function WhyChooseUs() {
   const { t } = useTranslation();
@@ -37,8 +35,6 @@ function WhyChooseUs() {
           </div>
         </section>
         <BenefitsList />
-        <ComparisonTable />
-        <TrustIndicators />
       </PageTransition>
     </>
   );

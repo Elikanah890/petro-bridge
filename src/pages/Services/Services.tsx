@@ -4,7 +4,6 @@ import { PageTransition } from '@/components/animations/PageTransition';
 import { motion } from 'framer-motion';
 import ServiceList from './ServiceList';
 import ServiceDetail from './ServiceDetail';
-import ServiceComparison from './ServiceComparison';
 
 function Services() {
   const { t } = useTranslation();
@@ -38,7 +37,6 @@ function Services() {
         </section>
         <ServiceList />
         <ServiceDetail />
-        <ServiceComparison />
       </PageTransition>
     </>
   );

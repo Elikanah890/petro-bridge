@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 
 const comparisonData = [
-  { aspect: 'Carrier Management', petroBridge: 'Pre-qualified network of 150+ rigorously vetted carriers with continuous performance monitoring', traditional: 'Ad-hoc engagement of unverified transporters with no systematic quality control' },
+  { aspect: 'Carrier Management', petroBridge: 'Pre-qualified network of rigorously vetted carriers with continuous performance monitoring', traditional: 'Ad-hoc engagement of unverified transporters with no systematic quality control' },
   { aspect: 'Shipment Visibility', petroBridge: 'Real-time GPS tracking with geofencing, automated milestone alerts, and live map visualization', traditional: 'Phone calls and manual check-ins for location updates, often inaccurate or delayed' },
   { aspect: 'Delivery Verification', petroBridge: 'Electronic Proof of Delivery with digital signatures, photo evidence, and quantity reconciliation', traditional: 'Paper-based delivery notes prone to errors, disputes, and loss' },
   { aspect: 'Exception Management', petroBridge: '24/7 proactive monitoring with automated alerts, rapid response protocols, and root cause analysis', traditional: 'Reactive problem discovery — often hours or days after incidents occur' },

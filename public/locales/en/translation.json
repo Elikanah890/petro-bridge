@@ -66,37 +66,60 @@
   },
   "services": {
     "title": "What We Do",
+    "label": "What We Do",
     "subtitle": "Comprehensive petroleum logistics coordination - from carrier qualification to delivery verification and everything in between",
-    "learnMore": "Learn More"
+    "learnMore": "Learn More",
+    "pageTitle": "Our Services | Petro Bridge Solutions",
+    "metaDescription": "Comprehensive petroleum logistics coordination services — carrier qualification, dispatch coordination, depot management, shipment monitoring, delivery verification, and analytics.",
+    "heroLabel": "What We Do",
+    "heroTitle": "Our Services",
+    "heroSubtitle": "Comprehensive petroleum logistics coordination — from carrier qualification and dispatch planning to real-time monitoring, delivery verification, and advanced analytics. Every service designed to give you complete control, visibility, and peace of mind.",
+    "detailTitle": "Service Details",
+    "detailSubtitle": "Explore each service in depth — features, benefits, and how they work together to provide seamless logistics coordination.",
+    "features": "Features",
+    "benefits": "Benefits"
   },
   "dashboard": {
     "title": "Your Logistics, Fully Visible",
-    "subtitle": "One coordination console for your entire fuel supply chain"
+    "label": "Live Platform",
+    "subtitle": "One coordination console for your entire fuel supply chain — real-time shipment tracking, live route monitoring, and delivery verification at a glance.",
+    "consoleTitle": "Petro Bridge — Operations Console",
+    "systemLive": "System Live",
+    "activeShipments": "Active Shipments",
+    "kpiActive": "Active Shipments",
+    "kpiTransit": "In Transit (L)",
+    "kpiExceptions": "Exceptions"
   },
   "statistics": {
     "title": "By The Numbers"
   },
   "industries": {
     "title": "Sectors We Power",
+    "label": "Sectors We Power",
     "subtitle": "Tailored logistics coordination solutions for every sector that depends on reliable fuel supply"
   },
   "whyUs": {
     "title": "The Petro Bridge Advantage",
+    "label": "The Petro Bridge Advantage",
     "subtitle": "Why Choose Petro Bridge",
     "description": "Eight compelling reasons why Tanzania's leading companies trust us with their fuel logistics coordination"
   },
   "process": {
     "title": "Our Process",
+    "label": "Our Process",
     "subtitle": "Our proven five-step process ensures seamless logistics coordination from start to finish"
   },
   "testimonials": {
     "title": "Client Stories",
+    "label": "Client Stories",
     "subtitle": "What Our Clients Say",
     "description": "Hear from the companies that rely on Petro Bridge Solutions for their petroleum logistics coordination"
   },
   "faq": {
     "title": "Frequently Asked Questions",
-    "subtitle": "Everything you need to know about our services, process, and platform"
+    "label": "FAQ",
+    "subtitle": "Everything you need to know about our services, process, and platform",
+    "viewAll": "View All FAQs"
   },
   "newsletter": {
     "title": "Stay Informed",
@@ -108,11 +131,13 @@
     "error": "Please enter a valid email address"
   },
   "cta": {
-    "title": "Let's Work Together",
-    "subtitle": "Ready to Transform Your Fuel Logistics?",
-    "description": "Partner with Tanzania's petroleum logistics coordination authority.",
+    "title": "Ready to Transform Your Fuel Logistics?",
+    "label": "Let's Work Together",
+    "description": "Partner with Tanzania's petroleum logistics coordination authority. Let's build a smarter, more transparent, and more reliable fuel supply chain together.",
     "startNow": "Start Now",
-    "callUs": "Call Us"
+    "callUs": "Call Us",
+    "emailUs": "Email Us",
+    "visitUs": "Visit Us"
   },
   "contact": {
     "title": "Contact Us",
@@ -121,17 +146,33 @@
     "address": "Dar es Salaam, Tanzania",
     "phone_number": "+255 123 456 789",
     "email_address": "info@petrobridgesolutions.co.tz",
-    "form_name": "Full Name",
-    "form_company": "Company Name",
-    "form_email": "Email Address",
-    "form_phone": "Phone Number",
-    "form_message": "Message",
-    "form_submit": "Send Message",
-    "form_success": "Thank you! We'll respond within 24 hours.",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Enter your full name",
+    "company": "Company Name",
+    "companyPlaceholder": "Your company name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "serviceInterest": "Service Interest",
+    "message": "Your Message",
+    "messagePlaceholder": "Tell us about your logistics needs, challenges, or questions...",
+    "formTitle": "Send Us a Message",
+    "formSubtitle": "Fill out the form below and our team will get back to you within 24 hours.",
+    "selectService": "Select a service",
+    "sendWhatsApp": "Send via WhatsApp",
+    "whatsappLabel": "Hello Petro Bridge Solutions",
+    "whatsappFooter": "I would like to discuss my fuel logistics needs.",
+    "whatsappThanks": "Thank you.",
+    "sent": "Message Sent!",
     "hours_title": "Business Hours",
     "hours_weekday": "Monday - Friday: 8:00 AM - 6:00 PM EAT",
     "hours_saturday": "Saturday: 8:00 AM - 1:00 PM EAT",
-    "hours_sunday": "Sunday: Closed"
+    "hours_sunday": "Sunday: Closed",
+    "mapTitle": "Our Location",
+    "pageTitle": "Contact Us | Petro Bridge Solutions",
+    "metaDescription": "Get in touch with Petro Bridge Solutions — Tanzania's premier petroleum logistics coordination company. Contact us for inquiries, service requests, or partnership opportunities.",
+    "heroLabel": "Get In Touch",
+    "heroTitle": "Contact Us",
+    "heroSubtitle": "Ready to transform your fuel logistics? Have a question about our services? Our team is here to help. Reach out and let's start a conversation."
   },
   "footer": {
     "description": "Tanzania's premier petroleum logistics coordination and delivery assurance company. Bridging the gap between fuel suppliers, transporters, and customers.",

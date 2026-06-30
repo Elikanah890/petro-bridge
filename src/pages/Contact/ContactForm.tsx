@@ -2,10 +2,11 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/Button';
+import { SITE_CONFIG } from '@/lib/constants';
 
 function ContactForm() {
   const { t } = useTranslation();
-  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+  const [status, setStatus] = useState<'idle' | 'success'>('idle');
   const [formData, setFormData] = useState({
     fullName: '',
     email: '',
@@ -15,10 +16,22 @@ function ContactForm() {
     message: '',
   });
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setStatus('loading');
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+
+    const text = `${t('contact.whatsappLabel')}%0A%0A` +
+      `${t('contact.fullName')}: ${formData.fullName}%0A` +
+      `${t('contact.company')}: ${formData.company}%0A` +
+      `${t('contact.email')}: ${formData.email}%0A` +
+      `${t('contact.phone')}: ${formData.phone}%0A` +
+      `${t('contact.serviceInterest')}: ${formData.service}%0A` +
+      `${t('contact.message')}: ${formData.message}%0A%0A` +
+      `${t('contact.whatsappFooter')}%0A` +
+      `${t('contact.whatsappThanks')}`;
+
+    const whatsappNumber = SITE_CONFIG.whatsapp.replace(/[\s+]/g, '');
+    window.open(`https://wa.me/${whatsappNumber}?text=${text}`, '_blank');
+
     setStatus('success');
     setFormData({ fullName: '', email: '', phone: '', company: '', service: '', message: '' });
     setTimeout(() => setStatus('idle'), 4000);
@@ -138,17 +151,9 @@ function ContactForm() {
           variant="gold"
           size="lg"
           className="w-full"
-          disabled={status === 'loading'}
+
         >
-          {status === 'loading' ? (
-            <span className="flex items-center gap-2">
-              <svg className="animate-spin w-4 h-4" fill="none" viewBox="0 0 24 24">
-                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
-              </svg>
-              {t('contact.sending', 'Sending...')}
-            </span>
-          ) : status === 'success' ? (
+          {status === 'success' ? (
             <span className="flex items-center gap-2">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -156,12 +161,10 @@ function ContactForm() {
               {t('contact.sent', 'Message Sent!')}
             </span>
           ) : (
-            t('contact.sendMessage', 'Send Message')
+            t('contact.sendWhatsApp', 'Send via WhatsApp')
           )}
         </Button>
-        {status === 'error' && (
-          <p className="text-red-500 text-sm text-center">{t('contact.error', 'Something went wrong. Please try again.')}</p>
-        )}
+
       </div>
     </motion.form>
   );

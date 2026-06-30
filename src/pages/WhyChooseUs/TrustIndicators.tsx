@@ -1,7 +1,5 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { statistics } from '@/data/statistics';
-import { Counter } from '@/components/ui/Counter';
 
 function TrustIndicators() {
   const { t } = useTranslation();
@@ -30,25 +28,6 @@ function TrustIndicators() {
             {t('whyUs.trustSubtitle', 'The numbers and credentials that demonstrate why Tanzania\'s leading companies trust Petro Bridge Solutions.')}
           </p>
         </motion.div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-          {statistics.slice(0, 8).map((stat, i) => (
-            <motion.div
-              key={stat.id}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="bg-navy-50 dark:bg-navy-800 rounded-2xl p-6 text-center border border-navy-100 dark:border-navy-700"
-            >
-              <div className="text-3xl lg:text-4xl font-bold text-gold-500 mb-2">
-                {stat.prefix && <span>{stat.prefix}</span>}
-                <Counter end={stat.value} />
-                {stat.suffix && <span>{stat.suffix}</span>}
-              </div>
-              <p className="text-navy-600 dark:text-navy-400 text-sm">{stat.label}</p>
-            </motion.div>
-          ))}
-        </div>
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}

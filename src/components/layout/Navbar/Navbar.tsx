@@ -38,7 +38,7 @@ export function Navbar() {
           'fixed inset-x-0 top-0 z-[100] h-16 sm:h-18 lg:h-22 transition-all duration-300',
           solid
             ? 'border-b border-navy-100/80 bg-white/95 shadow-nav backdrop-blur-md dark:border-navy-800 dark:bg-navy-900/95'
-            : 'bg-transparent'
+            : 'bg-white/90 backdrop-blur-md border-b border-navy-100/30 dark:bg-transparent dark:border-transparent'
         )}
       >
         <Container className="h-full">
@@ -63,7 +63,7 @@ export function Navbar() {
                         'group relative inline-flex items-center gap-1 rounded-lg px-3 py-2 text-sm font-medium transition-colors',
                         solid
                           ? 'text-navy-700 hover:text-navy-900 dark:text-navy-100 dark:hover:text-white'
-                          : 'text-white/85 hover:text-white'
+                          : 'text-navy-700 hover:text-navy-900 dark:text-white/85 dark:hover:text-white'
                       )}
                     >
                       {t(item.label)}
@@ -98,8 +98,8 @@ export function Navbar() {
 
             {/* Desktop right */}
             <div className="hidden items-center gap-2 lg:flex">
-              <LanguageSwitcher className={cn(!solid && 'text-white/90 hover:bg-white/10 hover:text-white')} />
-              <ThemeToggle className={cn(!solid && 'text-white/90 hover:bg-white/10 hover:text-white')} />
+              <LanguageSwitcher className={cn(!solid && 'text-navy-700 hover:bg-navy-100 dark:text-white/90 dark:hover:bg-white/10 dark:hover:text-white')} />
+              <ThemeToggle className={cn(!solid && 'text-navy-700 hover:bg-navy-100 dark:text-white/90 dark:hover:bg-white/10 dark:hover:text-white')} />
               <Button href="/contact" variant="gold" size="md">
                 {t('nav.getStarted')}
               </Button>
@@ -112,7 +112,7 @@ export function Navbar() {
                 'inline-flex h-11 w-11 items-center justify-center rounded-xl transition-all lg:hidden',
                 solid
                   ? 'bg-navy-50 text-navy-800 dark:bg-navy-800 dark:text-white'
-                  : 'bg-white/25 text-white backdrop-blur-sm'
+                  : 'bg-navy-100 text-navy-800 dark:bg-white/25 dark:text-white dark:backdrop-blur-sm'
               )}
               aria-label="Open menu"
             >
