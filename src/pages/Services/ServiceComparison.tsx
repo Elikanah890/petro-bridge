@@ -5,26 +5,19 @@ function ServiceComparison() {
   const { t } = useTranslation();
 
   const comparisonRows = [
-    { feature: t('services.comp.carrierManagement', 'Carrier Management'), qualification: true, dispatch: true, depot: false, monitoring: false, exception: false, verification: false, reporting: false },
-    { feature: t('services.comp.dispatchCoordination', 'Dispatch Coordination'), qualification: false, dispatch: true, depot: false, monitoring: false, exception: false, verification: false, reporting: false },
-    { feature: t('services.comp.inventoryTracking', 'Inventory Tracking'), qualification: false, dispatch: false, depot: true, monitoring: false, exception: false, verification: false, reporting: true },
-    { feature: t('services.comp.realTimeTracking', 'Real-Time Tracking'), qualification: false, dispatch: false, depot: false, monitoring: true, exception: false, verification: false, reporting: true },
-    { feature: t('services.comp.incidentResponse', 'Incident Response'), qualification: false, dispatch: false, depot: false, monitoring: false, exception: true, verification: false, reporting: false },
-    { feature: t('services.comp.deliveryVerification', 'Delivery Verification'), qualification: false, dispatch: false, depot: false, monitoring: false, exception: false, verification: true, reporting: true },
-    { feature: t('services.comp.analyticsReporting', 'Analytics & Reporting'), qualification: false, dispatch: true, depot: true, monitoring: true, exception: true, verification: true, reporting: true },
-    { feature: t('services.comp.gpsGeofencing', 'GPS & Geofencing'), qualification: false, dispatch: true, depot: false, monitoring: true, exception: true, verification: true, reporting: false },
-    { feature: t('services.comp.24x7Support', '24/7 Support'), qualification: true, dispatch: true, depot: true, monitoring: true, exception: true, verification: true, reporting: true },
-    { feature: t('services.comp.regulatoryCompliance', 'Regulatory Compliance'), qualification: true, dispatch: false, depot: false, monitoring: false, exception: false, verification: true, reporting: true },
+    { feature: t('services.comp.carrierManagement', 'Carrier Management'), qualification: true, dispatch: true, verification: false, reporting: false },
+    { feature: t('services.comp.dispatchCoordination', 'Dispatch Coordination'), qualification: false, dispatch: true, verification: false, reporting: false },
+    { feature: t('services.comp.deliveryVerification', 'Delivery Verification'), qualification: false, dispatch: false, verification: true, reporting: true },
+    { feature: t('services.comp.analyticsReporting', 'Analytics & Reporting'), qualification: false, dispatch: true, verification: true, reporting: true },
+    { feature: t('services.comp.24x7Support', '24/7 Support'), qualification: true, dispatch: true, verification: true, reporting: true },
+    { feature: t('services.comp.regulatoryCompliance', 'Regulatory Compliance'), qualification: true, dispatch: false, verification: true, reporting: true },
   ];
 
-  const categories = ['qualification', 'dispatch', 'depot', 'monitoring', 'exception', 'verification', 'reporting'] as const;
+  const categories = ['qualification', 'dispatch', 'verification', 'reporting'] as const;
 
   const shortNames: Record<string, string> = {
     qualification: t('services.comp.shortQual', 'Qualification'),
     dispatch: t('services.comp.shortDisp', 'Dispatch'),
-    depot: t('services.comp.shortDepot', 'Depot'),
-    monitoring: t('services.comp.shortMon', 'Monitoring'),
-    exception: t('services.comp.shortExcep', 'Exception'),
     verification: t('services.comp.shortVerif', 'Verification'),
     reporting: t('services.comp.shortReport', 'Reporting'),
   };

@@ -11,7 +11,7 @@ export const seoData = {
   },
   services: {
     title: 'Petroleum Logistics Services - Fuel Coordination & Delivery Assurance | Tanzania',
-    description: 'Comprehensive petroleum logistics services: carrier qualification, dispatch coordination, depot management, real-time monitoring, delivery verification, and analytics.',
+    description: 'Comprehensive petroleum logistics services: carrier qualification, dispatch coordination, delivery verification, and analytics.',
     keywords: 'petroleum logistics services, fuel coordination, carrier qualification, delivery verification, Tanzania',
   },
   howWeWork: {

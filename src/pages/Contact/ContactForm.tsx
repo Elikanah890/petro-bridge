@@ -40,9 +40,6 @@ function ContactForm() {
   const services = [
     'Carrier Qualification & Onboarding',
     'Dispatch Coordination & Load Planning',
-    'Depot & Inventory Management',
-    'Real-Time Shipment Monitoring',
-    'Exception & Incident Management',
     'Delivery Verification & Reconciliation',
     'Analytics, Insights & Reporting',
   ];

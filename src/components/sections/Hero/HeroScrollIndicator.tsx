@@ -9,7 +9,7 @@ export function HeroScrollIndicator({ className }: HeroScrollIndicatorProps) {
 
   return (
     <motion.a
-      href="#trust-bar"
+      href="#about"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 1.2, duration: 0.8 }}

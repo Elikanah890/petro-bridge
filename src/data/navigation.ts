@@ -18,9 +18,6 @@ export const mainNavigation: NavItem[] = [
     children: [
       { label: 'nav.sub_services_qualification', href: '/services#qualification' },
       { label: 'nav.sub_services_dispatch', href: '/services#dispatch' },
-      { label: 'nav.sub_services_depot', href: '/services#depot' },
-      { label: 'nav.sub_services_monitoring', href: '/services#monitoring' },
-      { label: 'nav.sub_services_exception', href: '/services#exception' },
       { label: 'nav.sub_services_verification', href: '/services#verification' },
       { label: 'nav.sub_services_reporting', href: '/services#reporting' },
     ],
@@ -42,7 +39,6 @@ export const footerLinks: FooterLinkGroup[] = [
     links: [
       { label: 'footer.link_carrier', href: '/services#qualification' },
       { label: 'footer.link_dispatch', href: '/services#dispatch' },
-      { label: 'footer.link_monitoring', href: '/services#monitoring' },
       { label: 'footer.link_verification', href: '/services#verification' },
       { label: 'footer.link_reporting', href: '/services#reporting' },
     ],

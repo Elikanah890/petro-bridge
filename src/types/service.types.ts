@@ -7,7 +7,7 @@ export interface Service {
   features: string[];
   benefits: string[];
   image?: string;
-  category: 'qualification' | 'dispatch' | 'depot' | 'monitoring' | 'exception' | 'verification' | 'reporting';
+  category: 'qualification' | 'dispatch' | 'verification' | 'reporting';
 }
 
 export interface ProcessStep {

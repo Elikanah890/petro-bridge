@@ -1,9 +1,6 @@
 import {
   ShieldCheck,
   Route,
-  Warehouse,
-  Radar,
-  AlertTriangle,
   ClipboardCheck,
   BarChart3,
   ArrowRight,
@@ -16,9 +13,6 @@ import type { ServiceCardProps } from './Services.types';
 const iconMap: Record<string, LucideIcon> = {
   'carrier-qualification': ShieldCheck,
   'dispatch-coordination': Route,
-  'depot-management': Warehouse,
-  'shipment-monitoring': Radar,
-  'exception-management': AlertTriangle,
   'delivery-verification': ClipboardCheck,
   'analytics-reporting': BarChart3,
 };

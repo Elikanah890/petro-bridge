@@ -20,9 +20,6 @@
     "sub_about_founder": "Ujumbe Kutoka Kwa Petro",
     "sub_services_qualification": "Uidhinishaji wa Wasafirishaji",
     "sub_services_dispatch": "Uratibu wa Usafirishaji",
-    "sub_services_depot": "Usimamizi wa Depo",
-    "sub_services_monitoring": "Ufuatiliaji wa Shehena",
-    "sub_services_exception": "Usimamizi wa Hitilafu",
     "sub_services_verification": "Uhakiki wa Usafirishaji",
     "sub_services_reporting": "Uchambuzi na Ripoti",
     "sub_industries_petroleum": "Masoko ya Mafuta",
@@ -104,7 +101,7 @@
     "learnMore": "Jifunze Zaidi",
     "viewAll": "Tazama Huduma Zote",
     "pageTitle": "Huduma Zetu | Petro Bridge Solutions",
-    "metaDescription": "Huduma kamili za uratibu wa vifaa vya mafuta — uidhinishaji wa wasafirishaji, uratibu wa usafirishaji, usimamizi wa depo, ufuatiliaji wa shehena, uhakiki wa usafirishaji, na uchambuzi.",
+    "metaDescription": "Huduma kamili za uratibu wa vifaa vya mafuta — uidhinishaji wa wasafirishaji, uratibu wa usafirishaji, uhakiki wa usafirishaji, na uchambuzi.",
     "heroLabel": "Tunachofanya",
     "heroTitle": "Huduma Zetu",
     "heroSubtitle": "Uratibu kamili wa vifaa vya mafuta — kutoka uidhinishaji wa wasafirishaji na mipango ya usafirishaji hadi ufuatiliaji wa wakati halisi, uhakiki wa usafirishaji, na uchambuzi wa kina. Kila huduma imeundwa kukupa udhibiti kamili, mwonekano, na amani ya akili.",
@@ -117,11 +114,8 @@
     "serviceLabel": "Huduma",
     "qualificationLabel": "Huduma 01",
     "dispatchLabel": "Huduma 02",
-    "depotLabel": "Huduma 03",
-    "monitoringLabel": "Huduma 04",
-    "exceptionLabel": "Huduma 05",
-    "verificationLabel": "Huduma 06",
-    "reportingLabel": "Huduma 07",
+    "verificationLabel": "Huduma 03",
+    "reportingLabel": "Huduma 04",
     "items": [
       {
         "title": "Uidhinishaji wa Wasafirishaji",
@@ -132,21 +126,6 @@
         "title": "Uratibu wa Usafirishaji na Mipango ya Mizigo",
         "subtitle": "Mipango Mahiri kwa Usafirishaji kwa Wakati",
         "description": "Kituo chetu cha uratibu wa vifaa kinasimamia mzunguko kamili wa usafirishaji. Kuanzia mipango ya mizigo na uboreshaji wa njia hadi ugawaji wa wasafirishaji na uanzishaji wa ufuatiliaji wa wakati halisi, tunahakikisha kila shehena inasafirishwa kwa usahihi, ufanisi, na mwonekano kamili."
-      },
-      {
-        "title": "Usimamizi wa Depo na Hesabu",
-        "subtitle": "Mwonekano Kamili wa Hisa na Udhibiti",
-        "description": "Pata udhibiti kamili wa hesabu ya bidhaa zako za mafuta katika depo zote. Jukwaa letu linatoa ufuatiliaji wa wakati halisi wa viwango vya hisa, arifa za kujaza tena kiotomatiki, na uratibu mzuri kati ya shughuli za depo na vifaa vya usafirishaji, kuhakikisha huishi njaa ya mafuta."
-      },
-      {
-        "title": "Ufuatiliaji wa Shehena kwa Wakati Halisi",
-        "subtitle": "Mwonekano Kamili, Kila Kilometa",
-        "description": "Fuatilia kila lita ya mafuta, kila kilometa ya safari, kwa wakati halisi. Jukwaa letu la ufuatiliaji la GPS na IoT linatoa ufuatiliaji wa eneo moja kwa moja, arifa za uzio wa kijiografia, ufuatiliaji wa joto, na arifa za kupotoka, kukupa imani kamili katika msururu wako wa usambazaji."
-      },
-      {
-        "title": "Usimamizi wa Hitilafu na Matukio",
-        "subtitle": "Majibu ya Haraka Wakati Inapohitajika Zaidi",
-        "description": "Wakati mambo yanapokwenda vibaya, mfumo wetu wa usimamizi wa hitilafu unajihusisha. Kutoka kucheleweshwa na uelekezaji mwingine hadi maswala ya ubora wa bidhaa na ajali, timu yetu maalumu inaratibu suluhisho la haraka, kuwaweka washikadau wote katika habari na kupunguza athari za kiutendaji."
       },
       {
         "title": "Uhakiki wa Usafirishaji na Upatanisho",
@@ -461,7 +440,6 @@
     "section_legal": "Kisheria",
     "link_carrier": "Uidhinishaji wa Wasafirishaji",
     "link_dispatch": "Uratibu wa Usafirishaji",
-    "link_monitoring": "Ufuatiliaji wa Shehena",
     "link_verification": "Uhakiki wa Usafirishaji",
     "link_reporting": "Uchambuzi na Ripoti",
     "link_about": "Kuhusu Sisi",
