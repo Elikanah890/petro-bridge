@@ -19,7 +19,7 @@ export function SEO({
   ogType = 'website',
   author = 'Petro Bridge Solutions',
 }: SEOProps) {
-  const siteUrl = 'https://petro-bridge.vercel.app';
+  const siteUrl = 'https://petrobridgesolutions.co.tz';
   const fullCanonical = canonical ? `${siteUrl}${canonical}` : siteUrl;
 
   return (

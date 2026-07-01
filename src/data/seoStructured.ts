@@ -1,8 +1,8 @@
 export const organizationData = {
   name: 'Petro Bridge Solutions',
   description: 'Petroleum logistics coordination and delivery assurance company in Tanzania',
-  url: 'https://petro-bridge.vercel.app',
-  logo: 'https://petro-bridge.vercel.app/logos/logo-cropped.png',
+  url: 'https://petrobridgesolutions.co.tz',
+  logo: 'https://petrobridgesolutions.co.tz/logos/logo-cropped.png',
   foundingDate: '2018',
   founder: {
     '@type': 'Person',
