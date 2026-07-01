@@ -1,14 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 
-const flowSteps = [
-  { label: 'Needs Assessment', desc: 'Understand your logistics requirements and design custom solution' },
-  { label: 'Carrier Setup', desc: 'Select and integrate qualified carriers into your network' },
-  { label: 'Platform Config', desc: 'Configure dashboards, alerts, and integrations to your needs' },
-  { label: 'Go Live', desc: 'Launch operations with 24/7 monitoring and support' },
-  { label: 'Optimize', desc: 'Continuous reporting, analytics, and performance improvement' },
-];
-
 function ProcessFlowchart() {
   const { t } = useTranslation();
 
@@ -31,9 +23,9 @@ function ProcessFlowchart() {
         </motion.div>
         <div className="relative">
           <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-6">
-            {flowSteps.map((step, i) => (
+            {[0, 1, 2, 3, 4].map((i) => (
               <motion.div
-                key={step.label}
+                key={i}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -44,17 +36,21 @@ function ProcessFlowchart() {
                   <div className="w-14 h-14 rounded-full bg-gold-500/10 flex items-center justify-center mx-auto mb-4">
                     <span className="text-gold-500 font-bold text-xl">{i + 1}</span>
                   </div>
-                  <h3 className="text-lg font-bold text-white mb-2">{step.label}</h3>
-                  <p className="text-navy-400 text-sm">{step.desc}</p>
+                  <h3 className="text-lg font-bold text-white mb-2">
+                    {t(`process.flowSteps.${i}.title`, ['Needs Assessment', 'Carrier Setup', 'Platform Config', 'Go Live', 'Optimize'][i])}
+                  </h3>
+                  <p className="text-navy-400 text-sm">
+                    {t(`process.flowSteps.${i}.description`, ['Understand your logistics requirements and design custom solution', 'Select and integrate qualified carriers into your network', 'Configure dashboards, alerts, and integrations to your needs', 'Launch operations with 24/7 monitoring and support', 'Continuous reporting, analytics, and performance improvement'][i])}
+                  </p>
                 </div>
-                {i < flowSteps.length - 1 && (
+                {i < 4 && (
                   <div className="hidden lg:block absolute top-1/2 -right-3 transform -translate-y-1/2 text-gold-500 z-10">
                     <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                   </div>
                 )}
-                {i < flowSteps.length - 1 && (
+                {i < 4 && (
                   <div className="lg:hidden flex justify-center mt-4">
                     <svg className="w-6 h-6 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />

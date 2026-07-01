@@ -7,9 +7,9 @@
     "home": "Nyumbani",
     "about": "Kuhusu Sisi",
     "services": "Huduma",
-    "howWeWork": "Jinsi Tunavyofanya",
+    "howWeWork": "Jinsi Tunavyofanya Kazi",
     "industries": "Sekta",
-    "whyChooseUs": "Kwanini Sisi",
+    "whyChooseUs": "Kwanini Uchague Sisi",
     "resources": "Rasilimali",
     "contact": "Wasiliana",
     "getStarted": "Anza Sasa",
@@ -51,24 +51,58 @@
   },
   "about": {
     "title": "Kuhusu Petro Bridge Solutions",
+    "pageTitle": "Kuhusu Petro Bridge Solutions | Uratibu wa Vifaa vya Mafuta Tanzania",
+    "metaDescription": "Jifunze kuhusu Petro Bridge Solutions — kampuni ya kwanza Tanzania ya uratibu wa vifaa vya mafuta. Hadithi yetu, dhamira, maadili, na mwanzilishi nyuma ya mamlaka ya kuaminika zaidi ya vifaa vya mafuta Afrika Mashariki.",
     "label": "Kuhusu Sisi",
+    "heroLabel": "Kuhusu Sisi",
+    "heroTitle": "Kuhusu Petro Bridge Solutions",
+    "heroSubtitle": "Kuunganisha wauzaji wa mafuta, wasafirishaji, na wateja kupitia uratibu wa kitaalamu wa vifaa, teknolojia ya kisasa, na kujitolea bila kuyumba kwa ubora wa uendeshaji.",
     "subtitle": "Kuunganisha wauzaji wa mafuta, wasafirishaji, na wateja kupitia uratibu wa kitaalamu wa vifaa",
-    "description": "Petro Bridge Solutions ni mamlaka ya kuaminika ya uratibu wa vifaa vya mafuta nchini Tanzania. Tunatoa huduma kamili za usimamizi wa vifaa zinazohakikisha bidhaa za mafuta zinasafiri kwa usalama, ufanisi, na uwazi kutoka chanzo hadi mwisho.",
+    "description": "Petro Bridge Solutions ni Mamlaka ya Vifaa vya Mafuta inayoaminika nchini Tanzania. Tunatoa huduma kamili za usimamizi wa vifaa zinazohakikisha bidhaa za mafuta zinasafiri kwa usalama, ufanisi, na uwazi kutoka chanzo hadi mwisho.",
+    "missionVisionHeading": "Dhamira na Dira",
+    "missionVisionSubtitle": "Mwelekeo wa kimkakati unaoendesha kila kitu tunachofanya katika Petro Bridge Solutions.",
     "founderTitle": "Ujumbe Kutoka Kwa Petro",
     "founderMessage": "Sekta ya vifaa vya mafuta inaleta changamoto ambayo haizungumzwi moja kwa moja - lakini inahisiwa kila siku na wauzaji wa mafuta, wasafirishaji, na watumiaji kote Tanzania. Petro Bridge Solutions ilianzishwa ili kuunganisha pengo hili kwa jukwaa moja jumuishi la udhibiti kamili wa msururu wa usambazaji.",
     "founderName": "Petro",
     "founderRole": "Mwanzilishi & Mkurugenzi",
-    "missionTitle": "Dhamira Yetu",
-    "missionText": "Kutoa sekta ya mafuta Tanzania uratibu wa vifaa ulio wazi, bora, na wa kuaminika unaoboresha misururu ya usambazaji na kujenga uaminifu wa kudumu.",
-    "visionTitle": "Dira Yetu",
-    "visionText": "Kuwa mamlaka inayoaminika zaidi ya uratibu wa vifaa vya mafuta Afrika Mashariki, ikiweka kiwango cha ubora wa uendeshaji, uwazi, na uvumbuzi.",
-    "learnMore": "Jifunze Zaidi Kuhusu Sisi"
+    "visionTitle": "MAONO",
+    "visionText": "Kuwa mamlaka ya kuaminika zaidi ya uratibu wa vifaa vya mafuta nchini Tanzania na katika eneo lote la Afrika Mashariki — kutambuliwa na wateja, wasafirishaji, na washikadau wa sekta kwa nidhamu ya uendeshaji, kuegemea kwa usafirishaji, na uadilifu wa utekelezaji.",
+    "missionTitle": "DHIMA",
+    "missionText": "Kuratibu vifaa vya mafuta kwa usahihi wa kimuundo na uadilifu wa kiutendaji — kuunganisha wateja na wasafirishaji walioidhinishwa, kusimamia kila hatua ya mchakato wa usafirishaji chini ya usimamizi makini, na kuhakikisha kila shehena inatekelezwa, kufuatiliwa, na kuthibitishwa chini ya itifaki ya uratibu iliyopangwa.",
+    "storyTitle": "Hadithi Yetu",
+    "storyP1": "Petro Bridge Solutions ilianzishwa mwaka 2018 na Petro, mtaalamu wa vifaa vya mafuta mwenye uzoefu wa zaidi ya miaka 15 katika Afrika Mashariki. Baada ya kushuhudia changamoto zinazoendelea zilizokuwa zikikumba msururu wa usambazaji wa mafuta nchini Tanzania — mitandao iliyogawanyika ya wasafirishaji, mwonekano mdogo wa shehena, migogoro ya usafirishaji, na ufanisi mdogo wa kiutendaji — Petro alifikiria mfumo mpya wa uratibu wa vifaa vya mafuta.",
+    "storyP2": "Kampuni ilianza shughuli zake na timu ndogo ya wataalamu watano wa vifaa jijini Dar es Salaam, ikilenga kuhudumia kampuni za masoko ya mafuta zilizokuwa zikikabiliana na changamoto za usimamizi wa wasafirishaji. Kuanzia siku hizo za mwanzo, tuliwekeza sana katika kujenga mfumo thabiti wa uidhinishaji wa wasafirishaji na kutengeneza teknolojia ya umiliki kwa ajili ya ufuatiliaji na uthibitishaji wa shehena.",
+    "storyP3": "Leo, Petro Bridge Solutions imekua na kuwa kampuni ya kwanza ya uratibu wa vifaa vya mafuta nchini Tanzania. Tunahudumia wateja wa kiwango cha juu katika sekta mbalimbali, kuratibu mamia ya mamilioni ya lita za mafuta kila mwaka kupitia mtandao thabiti wa wasafirishaji walioidhinishwa, na kudumisha rekodi ya usafirishaji wa kuaminika na kwa wakati. Timu yetu imepanuka na wataalamu wa vifaa wanaofanya kazi kutoka kituo chetu cha uratibu jijini Dar es Salaam.",
+    "storyP4": "Ukuaji wetu umechochewa na kujitolea kwa dhati: kufanya vifaa vya mafuta kuwa vya kitaalamu nchini Tanzania kupitia teknolojia, viwango thabiti, na ushirikiano wa kweli na wateja wetu. Hatumiliki malori wala mafuta — tunatoa safu ya uratibu inayounganisha wauzaji, wasafirishaji, na watumiaji wa mwisho kwa uwazi, uwajibikaji, na ufanisi.",
+    "learnMore": "Jifunze Zaidi Kuhusu Sisi",
+    "structureTitle": "Muundo wa Biashara",
+    "structureSubtitle": "Petro Bridge Solutions imepangwa katika vitengo vinne maalumu, kila kimoja kikilenga katika kutoa ubora katika nyanja yake huku kikifanya kazi kwa ushirikiano ili kutoa uratibu jumuishi wa vifaa.",
+    "divisionOps": "Uendeshaji na Uratibu wa Vifaa",
+    "divisionOpsDesc": "Kituo chetu cha uratibu cha 24/7 ni moyo wa uendeshaji wa Petro Bridge Solutions. Kikiwa na waratibu wa vifaa wenye uzoefu, kitengo hiki kinasimamia vipengele vyote vya mzunguko wa vifaa — ugawaji wa wasafirishaji, uratibu wa usafirishaji, ufuatiliaji wa shehena kwa wakati halisi, usimamizi wa hitilafu, na uhakiki wa usafirishaji.",
+    "divisionTech": "Teknolojia na Maendeleo ya Jukwaa",
+    "divisionTechDesc": "Timu yetu ya ndani ya teknolojia inaunda na kudumisha jukwaa la uratibu wa vifaa linaloendesha huduma zetu. Kitengo hiki kinaendesha uvumbuzi endelevu katika ufuatiliaji, uchambuzi, otomatiki, na uzoefu wa mtumiaji ili kuweka Petro Bridge mstari wa mbele katika teknolojia ya vifaa.",
+    "divisionCarrier": "Usimamizi wa Mtandao wa Wasafirishaji",
+    "divisionCarrierDesc": "Kitengo hiki kinawajibika kwa uidhinishaji, uingizaji, mafunzo, na usimamizi endelevu wa utendaji wa mtandao wetu wa wasafirishaji. Wanahakikisha kila msafirishaji katika mtandao wetu anakidhi viwango vyetu vikali na kudumisha viwango hivyo kupitia tathmini inayoendelea.",
+    "divisionCommercial": "Ushirikiano wa Kibiashara na Wateja",
+    "divisionCommercialDesc": "Timu yetu ya kibiashara inafanya kazi kwa karibu na wateja kuelewa mahitaji yao yanayobadilika, kubuni suluhisho maalum za vifaa, na kuhakikisha huduma zetu zinaleta thamani inayopimika ya biashara. Kitengo hiki kinasimamia uhusiano wa wateja, maendeleo ya biashara, na ushirikiano wa kimkakati.",
+    "valuesTitle": "Maadili Yetu ya Msingi",
+    "valuesSubtitle": "Haya si maelezo ya matamanio yaliyoandikwa kwa ajili ya broshua. Ni kanuni za uendeshaji zinazofafanua jinsi tunavyoratibu kila kazi, kushirikisha kila mteja, na kuendesha kila hatua ya mchakato wa vifaa — bila ubaguzi.",
+    "values": [
+      { "name": "Uadilifu", "description": "Kila uamuzi wa uratibu unafanywa kwa uwajibikaji kamili na uaminifu wa kitaaluma. Tunawakilisha maslahi ya wateja wetu bila maelewano — katika uteuzi wa wasafirishaji, mawasiliano, uthibitishaji wa usafirishaji, na ripoti za upatanisho." },
+      { "name": "Nidhamu ya Uendeshaji", "description": "Hatufanyi kazi kwa njia isiyo rasmi. Kila mgawo unafuata itifaki za uratibu zilizopangwa zinazofafanua majukumu, kuanzisha vituo vya ukaguzi, na kutekeleza uwajibikaji katika kila hatua ya msururu wa vifaa. Muundo sio hiari. Ni msingi wa kila kitu tunachofanya." },
+      { "name": "Uwazi", "description": "Wateja hawawi bila taarifa. Kutoka idhini ya usafirishaji hadi uthibitisho wa mwisho wa uwasilishaji, tunadumisha mawasiliano hai na kutoa ripoti sahihi na wazi juu ya hali ya kila mwendo tunayoratibu. Hakuna mshangao. Hakuna mapungufu ya habari." },
+      { "name": "Uwajibikaji Bila Ubaguzi", "description": "Tunachukua umiliki kamili wa mchakato wa uratibu. Wakati changamoto zinapojitokeza — ucheleweshaji, tofauti, usumbufu wa njia — hatatafuti mtu mwingine kuzisimamia. Tunajihusisha mara moja, kuratibu majibu, na kuwaweka wateja katika taarifa wakati wote." },
+      { "name": "Kutokuegemea Upande wa Usafirishaji", "description": "Kwa sababu hatumiliki mali za usafiri, kila mgawo wa msafirishaji unafanywa kulingana na kufaa kwa uendeshaji, uwezo uliothibitishwa, na mahitaji ya mteja — kamwe juu ya malengo ya matumizi ya meli au mapendeleo ya wasafirishaji. Maamuzi yetu ya uratibu hayana upendeleo wa kimuundo." },
+      { "name": "Usahihi", "description": "Vifaa vya mafuta havina uvumilivu wa makosa. Mbinu yetu ya uratibu ni ya kimfumo, inayozingatia maelezo, na inayotumika mara kwa mara. Upeo wa makosa ya kiutendaji katika usambazaji wa mafuta ni sifuri — na tunafanya kazi ipasavyo." }
+    ]
   },
   "services": {
     "title": "Tunachofanya",
     "label": "Tunachofanya",
     "subtitle": "Uratibu kamili wa vifaa vya mafuta - kutoka uidhinishaji wa wasafirishaji hadi uhakiki wa usafirishaji",
+    "description": "Uratibu kamili wa vifaa vya mafuta - kutoka uidhinishaji wa wasafirishaji hadi uhakiki wa usafirishaji",
     "learnMore": "Jifunze Zaidi",
+    "viewAll": "Tazama Huduma Zote",
     "pageTitle": "Huduma Zetu | Petro Bridge Solutions",
     "metaDescription": "Huduma kamili za uratibu wa vifaa vya mafuta — uidhinishaji wa wasafirishaji, uratibu wa usafirishaji, usimamizi wa depo, ufuatiliaji wa shehena, uhakiki wa usafirishaji, na uchambuzi.",
     "heroLabel": "Tunachofanya",
@@ -77,16 +111,67 @@
     "detailTitle": "Maelezo ya Huduma",
     "detailSubtitle": "Chunguza kila huduma kwa kina — vipengele, faida, na jinsi zinavyofanya kazi pamoja kutoa uratibu mzuri wa vifaa.",
     "features": "Vipengele",
-    "benefits": "Faida"
+    "benefits": "Faida",
+    "listSubtitle": "Huduma saba zilizounganishwa zinazojumuisha kila kipengele cha mzunguko wa vifaa vya mafuta, zinazotolewa kupitia jukwaa moja la uratibu.",
+    "keyFeatures": "Vipengele Muhimu",
+    "serviceLabel": "Huduma",
+    "qualificationLabel": "Huduma 01",
+    "dispatchLabel": "Huduma 02",
+    "depotLabel": "Huduma 03",
+    "monitoringLabel": "Huduma 04",
+    "exceptionLabel": "Huduma 05",
+    "verificationLabel": "Huduma 06",
+    "reportingLabel": "Huduma 07",
+    "items": [
+      {
+        "title": "Uidhinishaji wa Wasafirishaji",
+        "subtitle": "Uchunguzi Makini kwa Usafiri wa Kuaminika",
+        "description": "Tunadumisha mtandao wa wasafirishaji walioidhinishwa, kuhakikisha kila msafirishaji anakidhi viwango vya juu vya usalama, bima, ubora wa vifaa, na kufuata kanuni kabla ya kuingia katika mtandao wetu. Mchakato wetu wa uidhinishaji unajumuisha uthibitishaji wa nyaraka, ukaguzi wa tovuti, na tathmini ya utendaji wa kihistoria."
+      },
+      {
+        "title": "Uratibu wa Usafirishaji na Mipango ya Mizigo",
+        "subtitle": "Mipango Mahiri kwa Usafirishaji kwa Wakati",
+        "description": "Kituo chetu cha uratibu wa vifaa kinasimamia mzunguko kamili wa usafirishaji. Kuanzia mipango ya mizigo na uboreshaji wa njia hadi ugawaji wa wasafirishaji na uanzishaji wa ufuatiliaji wa wakati halisi, tunahakikisha kila shehena inasafirishwa kwa usahihi, ufanisi, na mwonekano kamili."
+      },
+      {
+        "title": "Usimamizi wa Depo na Hesabu",
+        "subtitle": "Mwonekano Kamili wa Hisa na Udhibiti",
+        "description": "Pata udhibiti kamili wa hesabu ya bidhaa zako za mafuta katika depo zote. Jukwaa letu linatoa ufuatiliaji wa wakati halisi wa viwango vya hisa, arifa za kujaza tena kiotomatiki, na uratibu mzuri kati ya shughuli za depo na vifaa vya usafirishaji, kuhakikisha huishi njaa ya mafuta."
+      },
+      {
+        "title": "Ufuatiliaji wa Shehena kwa Wakati Halisi",
+        "subtitle": "Mwonekano Kamili, Kila Kilometa",
+        "description": "Fuatilia kila lita ya mafuta, kila kilometa ya safari, kwa wakati halisi. Jukwaa letu la ufuatiliaji la GPS na IoT linatoa ufuatiliaji wa eneo moja kwa moja, arifa za uzio wa kijiografia, ufuatiliaji wa joto, na arifa za kupotoka, kukupa imani kamili katika msururu wako wa usambazaji."
+      },
+      {
+        "title": "Usimamizi wa Hitilafu na Matukio",
+        "subtitle": "Majibu ya Haraka Wakati Inapohitajika Zaidi",
+        "description": "Wakati mambo yanapokwenda vibaya, mfumo wetu wa usimamizi wa hitilafu unajihusisha. Kutoka kucheleweshwa na uelekezaji mwingine hadi maswala ya ubora wa bidhaa na ajali, timu yetu maalumu inaratibu suluhisho la haraka, kuwaweka washikadau wote katika habari na kupunguza athari za kiutendaji."
+      },
+      {
+        "title": "Uhakiki wa Usafirishaji na Upatanisho",
+        "subtitle": "Kila Tone Limehesabiwa",
+        "description": "Mfumo wetu wa uthibitishaji wa maeneo mengi unahakikisha usahihi wa usafirishaji kutoka upakuaji hadi upakaji. Uthibitisho wa Kielektroniki wa Usafirishaji (e-POD), upatanisho wa ujazo, uthibitishaji wa kiasi uliorekebishwa kwa joto, na sahihi ya kidijitali huondoa mabishano na hasara."
+      },
+      {
+        "title": "Uchambuzi, Maarifa na Ripoti",
+        "subtitle": "Maamuzi Yanayotokana na Data, Matokeo Yaliyothibitishwa",
+        "description": "Badilisha data yako ya vifaa kuwa akili inayoweza kutekelezeka. Jukwaa letu la uchambuzi la hali ya juu linatoa dashibodi maalum, ripoti otomatiki, uchambuzi wa mwenendo, na maarifa ya utabiri yanayokuwezesha kuboresha gharama, kuboresha viwango vya huduma, na kufanya maamuzi ya kimkakati."
+      }
+    ]
   },
   "dashboard": {
     "title": "Vifaa Vyako, Vinavyoonekana Kikamilifu",
-    "label": "Jukwaa Moja kwa Moja",
+    "label": "Jukwaa la Moja kwa Moja",
     "subtitle": "Kituo kimoja cha uratibu kwa msururu wako mzima wa usambazaji wa mafuta — ufuatiliaji wa shehena kwa wakati halisi, ufuatiliaji wa njia, na uhakiki wa usafirishaji kwa mtazamo mmoja.",
+    "description": "Kituo kimoja cha uratibu kwa msururu wako mzima wa usambazaji wa mafuta",
     "consoleTitle": "Petro Bridge — Kituo cha Uendeshaji",
     "systemLive": "Mfumo Hai",
     "activeShipments": "Shehena Zinazoendelea",
+    "viewDemo": "Tazama Mfano Hai",
+    "requestConsultation": "Omba Ushauri",
     "kpiActive": "Shehena Zinazoendelea",
+    "kpiOnTime": "Kiwango cha Kufika kwa Wakati",
     "kpiTransit": "Safarini (L)",
     "kpiExceptions": "Hitilafu"
   },
@@ -96,18 +181,189 @@
   "industries": {
     "title": "Sekta Tunazohudumia",
     "label": "Sekta Tunazohudumia",
-    "subtitle": "Suluhisho za uratibu wa vifaa zilizoboreshwa kwa kila sekta inayotegemea mafuta"
+    "subtitle": "Suluhisho za uratibu wa vifaa zilizoboreshwa kwa kila sekta inayotegemea mafuta",
+    "description": "Suluhisho za uratibu wa vifaa zilizoboreshwa kwa kila sekta inayotegemea mafuta",
+    "viewAll": "Tazama Sekta Zote",
+    "items": [
+      {
+        "title": "Kampuni za Masoko ya Mafuta",
+        "description": "Tunatoa uratibu wa vifaa kwa Kampuni za Masoko ya Mafuta (OMCs), kusimamia msururu mzima wa usambazaji kutoka vituo vya kuagiza na kusafisha hadi vituo vya rejareja na wateja wa kibiashara Tanzania."
+      },
+      {
+        "title": "Madini na Uchimbaji",
+        "description": "Sekta ya madini inahitaji usambazaji wa mafuta wa kuaminika kwa mitambo mizito, jenereta, na magari katika maeneo ya mbali. Tunaratibu vifaa changamano ili kuhakikisha usambazaji wa mafuta kwa migodi nchini."
+      },
+      {
+        "title": "Serikali na Sekta ya Umma",
+        "description": "Tunasaidia mashirika ya serikali, taasisi za umma, na biashara zinazomilikiwa na serikali kwa uratibu wa vifaa vya mafuta salama, uwazi, na kufuata kanuni kwa magari yao, uzalishaji wa umeme, na mahitaji ya uendeshaji."
+      },
+      {
+        "title": "Ujenzi na Miundombinu",
+        "description": "Kutoka ujenzi wa barabara hadi miradi mikubwa ya miundombinu, tunahakikisha makampuni ya ujenzi wanapata mafuta wanayohitaji, wakati na mahali wanapoyahitaji, kuweka mitambo mizito ikifanya kazi na miradi kwenye ratiba."
+      },
+      {
+        "title": "Utengenezaji na Viwanda",
+        "description": "Viwanda vya utengenezaji vinategemea usambazaji wa mafuta kwa michakato ya uzalishaji, nguvu ya ziada, na shughuli za vifaa. Tunatoa uratibu wa kuaminika unaohakikisha njia zako za uzalishaji zinaendelea bila usumbufu."
+      },
+      {
+        "title": "Vituo vya Rejareja vya Mafuta",
+        "description": "Tunaratibu usafirishaji kwa vituo vya rejareja vya mafuta Tanzania, kuhakikisha vituo vinasalia na hisa, wateja wanahudumiwa, na waendeshaji wa vituo wanaweza kuzingatia biashara yao badala ya usimamizi wa vifaa."
+      }
+    ]
   },
   "whyUs": {
     "title": "Faida ya Petro Bridge",
     "label": "Faida ya Petro Bridge",
     "subtitle": "Kwanini Uchague Petro Bridge",
-    "description": "Sababu nane za kulazimisha kwanini makampuni makubwa Tanzania yanatuamini kwa uratibu wa vifaa vyao vya mafuta"
+    "description": "Sababu nane za kulazimisha kwanini makampuni makubwa Tanzania yanatuamini kwa uratibu wa vifaa vyao vya mafuta",
+    "pageTitle": "Kwanini Uchague Petro Bridge | Ubora wa Vifaa vya Mafuta",
+    "metaDescription": "Gundua kwanini makampuni makubwa ya Tanzania yanachagua Petro Bridge Solutions — wasafirishaji walioidhinishwa, ufuatiliaji wa wakati halisi, uboreshaji wa gharama, kufuata kanuni, na ushirikiano wa kweli.",
+    "heroLabel": "Tofauti ya Petro Bridge",
+    "heroTitle": "Kwanini Uchague Petro Bridge",
+    "heroSubtitle": "Sababu nane za kulazimisha kwanini makampuni makubwa ya mafuta Tanzania, shughuli za madini, na mashirika ya serikali yanatuamini kwa uratibu wa vifaa vyao vya mafuta.",
+    "benefitsTitle": "Sababu 8 za Kushirikiana Nasi",
+    "benefitsSubtitle": "Kila faida inaungwa mkono na matokeo halisi, michakato iliyothibitishwa, na timu iliyojitolea kwa mafanikio ya vifaa vyako.",
+    "exploreAll": "Chunguza Faida Zote",
+    "items": [
+      {
+        "title": "Utaalamu wa Sekta na Maarifa ya Kina ya Mitaa",
+        "description": "Timu yetu inachanganya miongo ya uzoefu wa vifaa vya mafuta na maarifa ya kina ya soko la Tanzania, mazingira ya udhibiti, na mazingira ya uendeshaji. Tunaelewa changamoto za kipekee za vifaa vya mafuta katika Afrika Mashariki na kuleta suluhisho zilizothibitishwa."
+      },
+      {
+        "title": "Jukwaa la Teknolojia ya Juu",
+        "description": "Teknolojia ya uratibu wa vifaa iliyojengwa kwa makusudi inatoa mwonekano wa wakati halisi, kazi za kiotomatiki, na maarifa yanayotokana na data. Jukwaa letu linaunganisha ufuatiliaji wa GPS, vihisi vya IoT, arifa za kiotomatiki, na uchambuzi wa hali ya juu katika kiolesura kimoja rahisi kutumia."
+      },
+      {
+        "title": "Uboreshaji wa Gharama na Uwazi",
+        "description": "Mfano wetu wa uratibu na ujumuishaji wa kiasi unatoa akiba ya gharama inayopimika. Bei ya uwazi, upatanisho wa kiotomatiki, na uboreshaji unaoongozwa na data huhakikisha unapata thamani bora kwa matumizi yako ya vifaa.",
+        "badge": "15-25%"
+      },
+      {
+        "title": "Kuegemea Kiutendaji na Upatikanaji",
+        "description": "Kwa ufuatiliaji wa 24/7, usimamizi makini wa hitilafu, na mtandao wa wasafirishaji wa akiba, tunahakikisha msururu wako wa usambazaji wa mafuta unabaki kufanya kazi hata wakati changamoto zinapotokea. Wateja wetu wanapata kupunguzwa kwa upungufu wa hisa na kucheleweshwa kwa usafirishaji.",
+        "badge": "99.5%"
+      },
+      {
+        "title": "Uhakikisho wa Kufuata Kanuni",
+        "description": "Abiri mazingira magumu ya udhibiti wa mafuta ya Tanzania kwa ujasiri. Tunahakikisha shughuli zote zinakidhi mahitaji ya EWURA, OSHA, NEMC, na mahitaji mengine ya udhibiti, kudumisha nyaraka kamili kwa ukaguzi."
+      },
+      {
+        "title": "Mwonekano Kamili wa Msururu wa Usambazaji",
+        "description": "Kutoka lango la depo hadi tanki la kituo cha rejareja, pata mwonekano kamili katika msururu wako wa usambazaji wa mafuta. Fuatilia kila shehena, angalia viwango vya hisa kwa wakati halisi, na pokea arifa za papo hapo kwa kupotoka kutoka kwa mpango."
+      },
+      {
+        "title": "Mbinu ya Ushirikiano wa Kweli",
+        "description": "Sisi si tu mtoa huduma — sisi ni mshirika wako wa vifaa. Timu yetu inafanya kazi kwa ushirikiano na timu zako za uendeshaji, ununuzi, na fedha ili kuboresha utendaji wa msururu wako wa usambazaji wa mafuta."
+      }
+    ]
+  },
+  "howWeWork": {
+    "pageTitle": "Jinsi Tunavyofanya Kazi | Petro Bridge Solutions",
+    "metaDescription": "Mchakato wetu uliothibitishwa wa hatua tano wa uratibu wa vifaa — kutoka tathmini ya mahitaji na uanzishaji wa wasafirishaji hadi ufuatiliaji wa moja kwa moja na uboreshaji endelevu. Ona jinsi Petro Bridge inavyotoa ubora.",
+    "heroLabel": "Mchakato Wetu",
+    "heroTitle": "Jinsi Tunavyofanya Kazi",
+    "heroSubtitle": "Mchakato uliothibitishwa wa hatua tano unaokupeleka kutoka changamoto za vifaa hadi uratibu usio na mshono. Kila hatua imeundwa kutoa uwazi, ufanisi, na matokeo yanayopimika."
   },
   "process": {
     "title": "Mchakato Wetu",
     "label": "Mchakato Wetu",
-    "subtitle": "Mchakato wetu uliothibitishwa wa hatua tano unahakikisha uratibu mzuri wa vifaa kutoka mwanzo hadi mwisho"
+    "subtitle": "Kutoka mashauriano ya awali hadi uboreshaji endelevu, mbinu yetu iliyopangwa inahakikisha uratibu wa vifaa wa hali ya juu na thabiti kwa kila mteja.",
+    "description": "Mchakato wetu uliothibitishwa wa hatua tano unahakikisha uratibu mzuri wa vifaa kutoka mwanzo hadi mwisho",
+    "viewFull": "Tazama Mchakato Kamili",
+    "timelineTitle": "Mchakato Wetu wa Hatua 5",
+    "timelineSubtitle": "Kutoka mashauriano ya awali hadi uboreshaji endelevu, mbinu yetu iliyopangwa inahakikisha uratibu wa vifaa wa hali ya juu na thabiti kwa kila mteja.",
+    "includes": "Kinachojumuishwa",
+    "flowchartTitle": "Mtiririko wa Mchakato",
+    "flowchartSubtitle": "Muhtasari wa kuona wa jinsi mchakato wetu wa uratibu wa vifaa unavyotiririka kutoka ushirikiano wa awali hadi uboreshaji endelevu.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Kuingiza Wateja na Tathmini ya Mahitaji",
+        "description": "Tunaanza kwa kuelewa mahitaji yako ya kipekee ya vifaa vya mafuta, muundo wa msururu wa usambazaji, maeneo ya depo, mifumo ya matumizi, na changamoto za uendeshaji.",
+        "includes": [
+          "Uchambuzi kamili wa mahitaji ya vifaa",
+          "Ramani na tathmini ya msururu wa usambazaji wa sasa",
+          "Kutambua fursa za uboreshaji",
+          "Muundo wa suluhisho maalum na ufafanuzi wa wigo",
+          "Maendeleo ya makubaliano ya kiwango cha huduma"
+        ]
+      },
+      {
+        "number": "2",
+        "title": "Kuanzisha Mtandao wa Wasafirishaji",
+        "description": "Tunasanidi mtandao wako wa wasafirishaji kutoka kwa kundi letu la wasafirishaji walioidhinishwa, kuunganisha mifumo yao na jukwaa letu la uratibu kwa shughuli zisizo na mshono.",
+        "includes": [
+          "Uteuzi wa wasafirishaji kulingana na njia na kiasi chako",
+          "Ujumuishaji wa teknolojia na uandikishaji",
+          "Mafunzo na usawazishaji wa taratibu za kawaida za uendeshaji",
+          "Uwekaji wa mifumo ya GPS na telematiki",
+          "Kuanzisha msingi wa utendaji"
+        ]
+      },
+      {
+        "number": "3",
+        "title": "Kuweka na Kusanidi Jukwaa",
+        "description": "Jukwaa letu la uratibu wa vifaa limesanidiwa kwa mahitaji yako maalum ya kazi, mahitaji ya ripoti, majukumu ya watumiaji, na mahitaji ya ujumuishaji.",
+        "includes": [
+          "Ubinafsishaji wa dashibodi na ripoti",
+          "Kuanzisha akaunti za watumiaji na ufikiaji kulingana na majukumu",
+          "Usanidi wa sheria za arifa na taarifa",
+          "Ujumuishaji na mifumo iliyopo (ERP, uhasibu)",
+          "Uhamisho wa data kutoka mifumo ya zamani"
+        ]
+      },
+      {
+        "number": "4",
+        "title": "Shughuli za Moja kwa Moja na Ufuatiliaji",
+        "description": "Anza shughuli zako za vifaa zilizoratibiwa kikamilifu. Timu yetu inatoa msaada wa kuendelea, ufuatiliaji wa wakati halisi, na utatuzi makini wa maswala.",
+        "includes": [
+          "Msaada wa kituo cha uratibu cha 24/7",
+          "Ufuatiliaji wa shehena kwa wakati halisi na mwonekano",
+          "Kugundua na kutatua hitilafu kwa haraka",
+          "Ufuatiliaji wa utendaji na kufuata makubaliano ya kiwango cha huduma",
+          "Mawasiliano endelevu na sasisho za hali"
+        ]
+      },
+      {
+        "number": "5",
+        "title": "Ripoti, Uchambuzi na Uboreshaji",
+        "description": "Pokea maarifa kamili ya utendaji, uchambuzi unaoweza kutekelezeka, na mapendekezo ya uboreshaji endelevu ili kuendesha faida za ufanisi zinazoendelea.",
+        "includes": [
+          "Ripoti za kiutendaji na kifedha kiotomatiki",
+          "Ufuatiliaji wa viashiria muhimu vya utendaji (KPI) na uchambuzi wa mwenendo",
+          "Alama za utendaji wa wasafirishaji na mapitio",
+          "Mapendekezo ya uboreshaji wa gharama",
+          "Mikutano ya mapitio ya biashara kila robo mwaka"
+        ]
+      }
+    ],
+    "flowSteps": [
+      {
+        "number": "1",
+        "title": "Tathmini ya Mahitaji",
+        "description": "Elewa mahitaji yako ya vifaa na ubuni suluhisho maalum"
+      },
+      {
+        "number": "2",
+        "title": "Kuanzisha Wasafirishaji",
+        "description": "Chagua na uunganishe wasafirishaji walioidhinishwa kwenye mtandao wako"
+      },
+      {
+        "number": "3",
+        "title": "Usanidi wa Jukwaa",
+        "description": "Sanidi dashibodi, arifa, na ujumuishaji kulingana na mahitaji yako"
+      },
+      {
+        "number": "4",
+        "title": "Anza Uendeshaji",
+        "description": "Zindua shughuli kwa ufuatiliaji na msaada wa 24/7"
+      },
+      {
+        "number": "5",
+        "title": "Boresha",
+        "description": "Ripoti endelevu, uchambuzi, na uboreshaji wa utendaji"
+      }
+    ]
   },
   "testimonials": {
     "title": "Hadithi za Wateja",
@@ -117,9 +373,32 @@
   },
   "faq": {
     "title": "Maswali Yanayoulizwa Mara kwa Mara",
-    "label": "Maswali",
+    "label": "Maswali Yanayoulizwa Mara kwa Mara",
     "subtitle": "Kila kitu unachohitaji kujua kuhusu huduma zetu, mchakato, na jukwaa letu",
-    "viewAll": "Tazama Maswali Yote"
+    "description": "Kila kitu unachohitaji kujua kuhusu huduma zetu, mchakato, na jukwaa letu",
+    "viewAll": "Tazama Maswali Yote",
+    "items": [
+      {
+        "question": "Petro Bridge Solutions inafanya nini hasa?",
+        "answer": "Petro Bridge Solutions ni kampuni ya uratibu wa vifaa vya mafuta na uhakikisho wa usafirishaji. Tunaunganisha wauzaji wa mafuta, wasafirishaji, na watumiaji wa mwisho kwa kutoa jukwaa moja jumuishi la kusimamia msururu mzima wa usambazaji wa mafuta. Hatumiliki malori au mafuta — tunaratibu, kufuatilia, kuthibitisha, na kuboresha mchakato wa vifaa kutoka mwanzo hadi mwisho, kuhakikisha mafuta yanasafirishwa kwa usalama, kwa wakati, na uwajibikaji kamili."
+      },
+      {
+        "question": "Petro Bridge inatofautianaje na kampuni ya usafirishaji?",
+        "answer": "Tofauti na kampuni za usafirishaji zinazomiliki malori na kusafirisha mafuta, Petro Bridge Solutions ni kampuni ya uratibu. Hatumiliki mali yoyote ya usafiri. Jukumu letu ni kuratibu mchakato mzima wa vifaa — kutoka uidhinishaji wa wasafirishaji na uratibu wa usafirishaji hadi ufuatiliaji wa wakati halisi na uhakiki wa usafirishaji. Hii inaturuhusu kuwa wasio na upendeleo katika mapendekezo yetu, daima kuchagua msafirishaji bora kwa kila mahitaji ya mteja."
+      },
+      {
+        "question": "Je, mnaratibu aina gani za mafuta?",
+        "answer": "Tunaratibu vifaa vya mafuta yote ikiwa ni pamoja na AGO (Diesel), PMS (Petrol), Jet A-1 (Mafuta ya Ndege), Mafuta ya Taa, Mafuta Mazito (HFO), Vilainishi, na LPG. Jukwaa letu la uratibu linashughulikia msururu mzima wa vifaa kwa bidhaa yoyote ya mafuta inayohitaji usafirishaji nchini Tanzania na katika eneo la Afrika Mashariki."
+      },
+      {
+        "question": "Je, mnafanya kazi wapi nchini Tanzania?",
+        "answer": "Tunafanya kazi katika Tanzania nzima, ikijumuisha mikoa yote mikuu ikiwa ni pamoja na Dar es Salaam, Arusha, Mwanza, Mbeya, Dodoma, Tanga, Mtwara, Kigoma, na mikoa yote mingine. Pia tunaratibu usafirishaji wa kimataifa katika Afrika Mashariki, ikijumuisha njia hadi Kenya, Uganda, Rwanda, Burundi, na Jamhuri ya Kidemokrasia ya Kongo."
+      },
+      {
+        "question": "Mchakato wa uidhinishaji wa wasafirishaji unafanyaje kazi?",
+        "answer": "Mchakato wetu wa uidhinishaji wa wasafirishaji ni mkali na wa hatua nyingi. Tunathibitisha nyaraka zote (leseni, bima, vibali), kufanya ukaguzi wa vifaa, kukagua data ya utendaji wa kihistoria, kuangalia rekodi za usalama na kufuata kanuni, na kufanya tathmini ya mara kwa mara. Wasafirishaji wanaokidhi viwango vyetu vikali ndio wanaokubaliwa katika mtandao wetu."
+      }
+    ]
   },
   "newsletter": {
     "title": "Pata Taarifa",
@@ -131,8 +410,8 @@
     "error": "Tafadhali ingiza anwani sahihi ya barua pepe"
   },
   "cta": {
-    "title": "Uko Tayari Kubadilisha Vifaa Vyako vya Mafuta?",
     "label": "Wacha Tufanye Kazi Pamoja",
+    "title": "Uko Tayari Kubadilisha Vifaa Vyako vya Mafuta?",
     "description": "Shirikiana na mamlaka ya uratibu wa vifaa vya mafuta ya Tanzania. Hebu tujenge msururu wa usambazaji wa mafuta wenye akili zaidi, uwazi, na wa kuaminika zaidi pamoja.",
     "startNow": "Anza Sasa",
     "callUs": "Tupigie Simu",
@@ -188,7 +467,7 @@
     "link_about": "Kuhusu Sisi",
     "link_how": "Jinsi Tunavyofanya",
     "link_industries": "Sekta",
-    "link_why": "Kwanini Sisi",
+    "link_why": "Kwanini Uchague Sisi",
     "link_clients": "Hadithi za Wateja",
     "link_faq": "Maswali",
     "link_blog": "Blogu na Maarifa",

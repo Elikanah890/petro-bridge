@@ -1,6 +1,7 @@
-import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
 import { PageTransition } from '@/components/animations/PageTransition';
+import { SEO } from '@/components/layout/SEO/SEO';
+import { seoData } from '@/data/seo';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { faqs } from '@/data/faqs';
@@ -23,10 +24,12 @@ function FAQ() {
 
   return (
     <>
-      <Helmet>
-        <title>{t('faq.pageTitle', 'Frequently Asked Questions | Petro Bridge Solutions')}</title>
-        <meta name="description" content={t('faq.metaDescription', 'Find answers to common questions about Petro Bridge Solutions\' petroleum logistics coordination services, pricing, technology platform, and operations in Tanzania.')} />
-      </Helmet>
+      <SEO
+        title={t('faq.pageTitle', seoData.faq.title)}
+        description={t('faq.metaDescription', seoData.faq.description)}
+        keywords={seoData.faq.keywords}
+        canonical="/faq"
+      />
       <PageTransition>
         <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-28 bg-navy-900 dark:bg-navy-950 overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(212,175,55,0.08),transparent_50%)]" />

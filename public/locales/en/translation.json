@@ -58,11 +58,21 @@
     "founderMessage": "The petroleum logistics industry presents a challenge that is rarely spoken about directly — but felt every day by fuel suppliers, transporters, and end-users across Tanzania. Petro Bridge Solutions was founded to bridge this gap with a single integrated platform for complete supply chain visibility and control.",
     "founderName": "Petro",
     "founderRole": "Founder & Director",
-    "missionTitle": "Our Mission",
-    "missionText": "To provide Tanzania's petroleum industry with transparent, efficient, and reliable logistics coordination that optimizes supply chains, reduces operational risks, and builds enduring trust among all stakeholders.",
-    "visionTitle": "Our Vision",
-    "visionText": "To become East Africa's most trusted petroleum logistics coordination authority, setting the standard for operational excellence, transparency, and innovation in the downstream fuel supply chain.",
-    "learnMore": "Learn More About Us"
+    "visionTitle": "VISION",
+    "visionText": "To be the most trusted petroleum logistics coordination authority in Tanzania and across the East African region — recognized by clients, transporters, and industry stakeholders for operational discipline, delivery reliability, and execution integrity.",
+    "missionTitle": "MISSION",
+    "missionText": "To coordinate petroleum logistics with structural precision and operational integrity — connecting clients with verified transporters, managing every stage of the delivery process under active supervision, and ensuring every shipment is executed, monitored, and confirmed under a structured coordination protocol.",
+    "learnMore": "Learn More About Us",
+    "valuesTitle": "Our Core Values",
+    "valuesSubtitle": "These are not aspirational statements written for a brochure. They are the operational principles that define how we coordinate every assignment, engage every client, and conduct every stage of the logistics process — without exception.",
+    "values": [
+      { "name": "Integrity", "description": "Every coordination decision is made with full accountability and professional honesty. We represent our clients' interests without compromise — in transporter selection, communication, delivery verification, and reconciliation reporting." },
+      { "name": "Operational Discipline", "description": "We do not operate informally. Every assignment follows structured coordination protocols that define roles, establish checkpoints, and enforce accountability at each stage of the logistics chain. Structure is not optional. It is the foundation of everything we do." },
+      { "name": "Transparency", "description": "Clients are never left uninformed. From dispatch authorization to final delivery confirmation, we maintain active communication and provide clear, accurate reporting on the status of every movement we coordinate. No surprises. No information gaps." },
+      { "name": "Accountability Without Exception", "description": "We take full ownership of the coordination process. When challenges arise — delays, exceptions, route disruptions — we do not look for someone else to manage them. We engage immediately, coordinate the response, and keep the client informed throughout." },
+      { "name": "Transport Neutrality", "description": "Because we do not own transport assets, every transporter assignment is made based entirely on operational fit, verified capability, and client requirements — never on fleet utilization targets or transporter preferences. Our coordination decisions are structurally unbiased." },
+      { "name": "Precision", "description": "Petroleum logistics has no tolerance for guesswork. Our coordination approach is methodical, detail-oriented, and consistently applied. The margin for operational error in fuel distribution is zero — and we operate accordingly." }
+    ]
   },
   "services": {
     "title": "What We Do",

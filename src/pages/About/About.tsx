@@ -1,8 +1,10 @@
-import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
 import { PageTransition } from '@/components/animations/PageTransition';
+import { SEO } from '@/components/layout/SEO/SEO';
+import { StructuredData } from '@/components/layout/SEO/StructuredData';
+import { organizationData } from '@/data/seoStructured';
+import { seoData } from '@/data/seo';
 import { motion } from 'framer-motion';
-import CompanyStory from './CompanyStory';
 import MissionVision from './MissionVision';
 import CoreValues from './CoreValues';
 import FounderMessage from './FounderMessage';
@@ -13,10 +15,13 @@ function About() {
 
   return (
     <>
-      <Helmet>
-        <title>{t('about.pageTitle', 'About Petro Bridge Solutions | Tanzania Petroleum Logistics')}</title>
-        <meta name="description" content={t('about.metaDescription', 'Learn about Petro Bridge Solutions — Tanzania\'s premier petroleum logistics coordination company. Our story, mission, values, and the founder behind East Africa\'s most trusted fuel logistics authority.')} />
-      </Helmet>
+      <SEO
+        title={t('about.pageTitle', seoData.about.title)}
+        description={t('about.metaDescription', seoData.about.description)}
+        keywords={seoData.about.keywords}
+        canonical="/about"
+      />
+      <StructuredData type="Organization" data={organizationData} />
       <PageTransition>
         <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-28 bg-navy-900 dark:bg-navy-950 overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(212,175,55,0.08),transparent_50%)]" />
@@ -39,7 +44,6 @@ function About() {
             </motion.div>
           </div>
         </section>
-        <CompanyStory />
         <MissionVision />
         <CoreValues />
         <FounderMessage />

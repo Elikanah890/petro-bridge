@@ -20,12 +20,6 @@ export const benefits: Benefit[] = [
     icon: '/icons/services/monitoring.svg',
   },
   {
-    id: 'network',
-    title: 'Pre-Qualified Carrier Network',
-    description: 'Access our rigorously vetted network of Tanzania\'s most reliable petroleum transporters. Every carrier undergoes comprehensive qualification including safety audits, insurance verification, equipment inspection, and performance history review.',
-    icon: '/icons/services/dispatch.svg',
-  },
-  {
     id: 'cost',
     title: 'Cost Optimization & Transparency',
     description: 'Our coordination model and consolidated volume leverage deliver measurable cost savings. Transparent pricing, automated reconciliation, and data-driven optimization ensure you get the best value for your logistics spend.',
@@ -48,7 +42,7 @@ export const benefits: Benefit[] = [
   {
     id: 'visibility',
     title: 'End-to-End Supply Chain Visibility',
-    description: 'From refinery gate to retail station tank, gain complete visibility into your fuel supply chain. Track every shipment, monitor inventory levels in real time, and receive instant alerts on any deviation from plan.',
+    description: 'From depot gate to retail station tank, gain complete visibility into your fuel supply chain. Track every shipment, monitor inventory levels in real time, and receive instant alerts on any deviation from plan.',
     icon: '/icons/services/depot.svg',
   },
   {

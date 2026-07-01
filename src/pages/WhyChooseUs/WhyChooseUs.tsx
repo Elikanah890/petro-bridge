@@ -1,6 +1,7 @@
-import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
 import { PageTransition } from '@/components/animations/PageTransition';
+import { SEO } from '@/components/layout/SEO/SEO';
+import { seoData } from '@/data/seo';
 import { motion } from 'framer-motion';
 import BenefitsList from './BenefitsList';
 
@@ -9,10 +10,12 @@ function WhyChooseUs() {
 
   return (
     <>
-      <Helmet>
-        <title>{t('whyUs.pageTitle', 'Why Choose Petro Bridge | Petroleum Logistics Excellence')}</title>
-        <meta name="description" content={t('whyUs.metaDescription', 'Discover why leading Tanzanian companies choose Petro Bridge Solutions — pre-qualified carriers, real-time tracking, cost optimization, regulatory compliance, and true partnership.')} />
-      </Helmet>
+      <SEO
+        title={t('whyUs.pageTitle', seoData.whyChooseUs.title)}
+        description={t('whyUs.metaDescription', seoData.whyChooseUs.description)}
+        keywords={seoData.whyChooseUs.keywords}
+        canonical="/why-choose-us"
+      />
       <PageTransition>
         <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-28 bg-navy-900 dark:bg-navy-950 overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(212,175,55,0.08),transparent_50%)]" />

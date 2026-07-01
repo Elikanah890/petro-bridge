@@ -1,6 +1,7 @@
-import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
 import { PageTransition } from '@/components/animations/PageTransition';
+import { SEO } from '@/components/layout/SEO/SEO';
+import { seoData } from '@/data/seo';
 import { motion } from 'framer-motion';
 import ContactForm from './ContactForm';
 import ContactInfo from './ContactInfo';
@@ -12,10 +13,12 @@ function Contact() {
 
   return (
     <>
-      <Helmet>
-        <title>{t('contact.pageTitle', 'Contact Us | Petro Bridge Solutions')}</title>
-        <meta name="description" content={t('contact.metaDescription', 'Get in touch with Petro Bridge Solutions — Tanzania\'s premier petroleum logistics coordination company. Contact us for inquiries, service requests, or partnership opportunities.')} />
-      </Helmet>
+      <SEO
+        title={t('contact.pageTitle', seoData.contact.title)}
+        description={t('contact.metaDescription', seoData.contact.description)}
+        keywords={seoData.contact.keywords}
+        canonical="/contact"
+      />
       <PageTransition>
         <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-28 bg-navy-900 dark:bg-navy-950 overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(212,175,55,0.08),transparent_50%)]" />

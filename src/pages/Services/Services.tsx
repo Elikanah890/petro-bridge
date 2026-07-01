@@ -1,6 +1,9 @@
-import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
 import { PageTransition } from '@/components/animations/PageTransition';
+import { SEO } from '@/components/layout/SEO/SEO';
+import { StructuredData } from '@/components/layout/SEO/StructuredData';
+import { serviceData } from '@/data/seoStructured';
+import { seoData } from '@/data/seo';
 import { motion } from 'framer-motion';
 import ServiceList from './ServiceList';
 import ServiceDetail from './ServiceDetail';
@@ -10,10 +13,13 @@ function Services() {
 
   return (
     <>
-      <Helmet>
-        <title>{t('services.pageTitle', 'Our Services | Petro Bridge Solutions')}</title>
-        <meta name="description" content={t('services.metaDescription', 'Comprehensive petroleum logistics coordination services — carrier qualification, dispatch coordination, depot management, shipment monitoring, delivery verification, and analytics.')} />
-      </Helmet>
+      <SEO
+        title={t('services.pageTitle', seoData.services.title)}
+        description={t('services.metaDescription', seoData.services.description)}
+        keywords={seoData.services.keywords}
+        canonical="/services"
+      />
+      <StructuredData type="Service" data={serviceData} />
       <PageTransition>
         <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-28 bg-navy-900 dark:bg-navy-950 overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(212,175,55,0.08),transparent_50%)]" />

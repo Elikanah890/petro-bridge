@@ -29,7 +29,7 @@ function FounderMessage() {
             <div className="w-12 h-0.5 bg-gold-500" />
             <div>
               <p className="text-white font-bold text-lg">{founder.name}</p>
-              <p className="text-navy-400 text-sm">{founder.position}</p>
+              <p className="text-navy-400 text-sm">{t('about.founderRole', founder.position)}</p>
             </div>
           </div>
         </motion.div>

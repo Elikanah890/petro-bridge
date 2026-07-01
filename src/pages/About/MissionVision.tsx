@@ -6,23 +6,23 @@ function MissionVision() {
 
   const cards = [
     {
-      id: 'mission',
-      title: t('about.missionTitle', 'Our Mission'),
-      text: t('about.missionText', 'To provide Tanzania\'s petroleum industry with transparent, efficient, and reliable logistics coordination that optimizes supply chains, reduces operational risks, and builds enduring trust among all stakeholders.'),
-      icon: (
-        <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5" />
-        </svg>
-      ),
-    },
-    {
       id: 'vision',
-      title: t('about.visionTitle', 'Our Vision'),
-      text: t('about.visionText', 'To become East Africa\'s most trusted petroleum logistics coordination authority, setting the standard for operational excellence, transparency, and innovation in the downstream fuel supply chain.'),
+      title: t('about.visionTitle', 'VISION'),
+      text: t('about.visionText', 'To be the most trusted petroleum logistics coordination authority in Tanzania and across the East African region — recognized by clients, transporters, and industry stakeholders for operational discipline, delivery reliability, and execution integrity.'),
       icon: (
         <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+        </svg>
+      ),
+    },
+    {
+      id: 'mission',
+      title: t('about.missionTitle', 'MISSION'),
+      text: t('about.missionText', 'To coordinate petroleum logistics with structural precision and operational integrity — connecting clients with verified transporters, managing every stage of the delivery process under active supervision, and ensuring every shipment is executed, monitored, and confirmed under a structured coordination protocol.'),
+      icon: (
+        <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5" />
         </svg>
       ),
     },
@@ -42,7 +42,7 @@ function MissionVision() {
             {t('about.missionVisionHeading', 'Mission & Vision')}
           </h2>
           <p className="text-lg text-navy-300 max-w-2xl mx-auto">
-            {t('about.missionVisionSubtitle', 'The principles and aspirations that drive everything we do at Petro Bridge Solutions.')}
+            {t('about.missionVisionSubtitle', 'The strategic direction that drives everything we do at Petro Bridge Solutions.')}
           </p>
         </motion.div>
         <div className="grid md:grid-cols-2 gap-8">

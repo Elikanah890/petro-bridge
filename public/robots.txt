@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://petrobridgesolutions.co.tz/sitemap.xml
 
-Disallow: /api/
+Sitemap: https://petro-bridge.vercel.app/sitemap.xml

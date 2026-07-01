@@ -1,6 +1,7 @@
-import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
 import { PageTransition } from '@/components/animations/PageTransition';
+import { SEO } from '@/components/layout/SEO/SEO';
+import { seoData } from '@/data/seo';
 import { motion } from 'framer-motion';
 import ProcessTimeline from './ProcessTimeline';
 import ProcessFlowchart from './ProcessFlowchart';
@@ -10,10 +11,12 @@ function HowWeWork() {
 
   return (
     <>
-      <Helmet>
-        <title>{t('howWeWork.pageTitle', 'How We Work | Petro Bridge Solutions')}</title>
-        <meta name="description" content={t('howWeWork.metaDescription', 'Our proven five-step logistics coordination process — from needs assessment and carrier setup to live monitoring and continuous improvement. See how Petro Bridge delivers excellence.')} />
-      </Helmet>
+      <SEO
+        title={t('howWeWork.pageTitle', seoData.howWeWork.title)}
+        description={t('howWeWork.metaDescription', seoData.howWeWork.description)}
+        keywords={seoData.howWeWork.keywords}
+        canonical="/how-we-work"
+      />
       <PageTransition>
         <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-28 bg-navy-900 dark:bg-navy-950 overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(212,175,55,0.08),transparent_50%)]" />

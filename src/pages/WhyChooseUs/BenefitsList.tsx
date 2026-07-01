@@ -1,7 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { benefits } from '@/data/benefits';
-import { Counter } from '@/components/ui/Counter';
 
 function BenefitsList() {
   const { t } = useTranslation();
@@ -38,12 +37,12 @@ function BenefitsList() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-lg font-bold text-navy-900 dark:text-white mb-3">{benefit.title}</h3>
-              <p className="text-navy-600 dark:text-navy-300 text-sm leading-relaxed mb-4">{benefit.description}</p>
+              <h3 className="text-lg font-bold text-navy-900 dark:text-white mb-3">{t(`whyUs.items.${i}.title`, benefit.title)}</h3>
+              <p className="text-navy-600 dark:text-navy-300 text-sm leading-relaxed mb-4">{t(`whyUs.items.${i}.description`, benefit.description)}</p>
               {benefit.metric && (
                 <div className="inline-flex items-center gap-1.5 bg-gold-500/10 rounded-lg px-3 py-1.5">
                   <span className="text-gold-600 font-bold text-lg">
-                    <Counter end={parseFloat(benefit.metric.replace(/[^0-9.]/g, ''))} suffix={benefit.metric.replace(/[0-9.]/g, '')} />
+                    {benefit.metric}
                   </span>
                 </div>
               )}

@@ -1,6 +1,9 @@
-import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
 import { PageTransition } from '@/components/animations/PageTransition';
+import { SEO } from '@/components/layout/SEO/SEO';
+import { StructuredData } from '@/components/layout/SEO/StructuredData';
+import { organizationData, localBusinessData } from '@/data/seoStructured';
+import { seoData } from '@/data/seo';
 import { Hero } from '@/components/sections/Hero';
 import { TrustBar } from '@/components/sections/TrustBar';
 import { AboutPreview } from '@/components/sections/AboutPreview';
@@ -18,10 +21,14 @@ function Home() {
 
   return (
     <>
-      <Helmet>
-        <title>{t('home.title', 'Petro Bridge Solutions | Petroleum Logistics Coordination Tanzania')}</title>
-        <meta name="description" content={t('home.metaDescription', 'Tanzania\'s premier petroleum logistics coordination and delivery assurance company. End-to-end fuel supply chain visibility, carrier management, and real-time shipment monitoring.')} />
-      </Helmet>
+      <SEO
+        title={t('home.title', seoData.home.title)}
+        description={t('home.metaDescription', seoData.home.description)}
+        keywords={seoData.home.keywords}
+        canonical="/"
+      />
+      <StructuredData type="Organization" data={organizationData} />
+      <StructuredData type="LocalBusiness" data={localBusinessData} />
       <PageTransition>
         <Hero />
         <TrustBar />
