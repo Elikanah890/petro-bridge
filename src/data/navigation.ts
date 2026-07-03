@@ -63,7 +63,7 @@ export const footerLinks: FooterLinkGroup[] = [
 ];
 
 export const socialLinks: SocialLink[] = [
-  { platform: 'facebook', href: 'https://facebook.com/petrobridge', label: 'Facebook' },
-  { platform: 'instagram', href: 'https://instagram.com/petrobridge', label: 'Instagram' },
-  { platform: 'whatsapp', href: 'https://wa.me/255123456789', label: 'WhatsApp' },
+  { platform: 'facebook', href: 'https://www.facebook.com/profile.php?id=61591640129345', label: 'Facebook' },
+  { platform: 'instagram', href: 'https://www.instagram.com/petrobridge_solutions/', label: 'Instagram' },
+  { platform: 'whatsapp', href: 'https://wa.me/255668746110', label: 'WhatsApp' },
 ];

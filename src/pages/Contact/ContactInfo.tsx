@@ -22,8 +22,7 @@ function ContactInfo() {
         </svg>
       ),
       label: t('contact.phoneLabel', 'Phone'),
-      value: t('contact.phoneNumber', '+255 734 567 890'),
-      secondary: t('contact.phoneSecondary', '+255 689 123 456'),
+      value: t('contact.phoneNumber', '+255 668 746 110'),
     },
     {
       icon: (
@@ -69,10 +68,15 @@ function ContactInfo() {
           {t('contact.followUs', 'Follow Us')}
         </p>
         <div className="flex gap-3">
-          {['linkedin', 'twitter', 'facebook', 'instagram'].map((platform) => (
+          {[
+            { platform: 'linkedin', url: 'https://linkedin.com/company/petro-bridge' },
+            { platform: 'twitter', url: 'https://twitter.com/petrobridge' },
+            { platform: 'facebook', url: 'https://www.facebook.com/profile.php?id=61591640129345' },
+            { platform: 'instagram', url: 'https://www.instagram.com/petrobridge_solutions/' },
+          ].map(({ platform, url }) => (
             <a
               key={platform}
-              href={`https://${platform}.com/petrobridge`}
+              href={url}
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-lg bg-navy-800 hover:bg-gold-500/20 flex items-center justify-center text-navy-400 hover:text-gold-500 transition-all"

@@ -15,7 +15,7 @@ export const organizationData = {
   },
   contactPoint: {
     '@type': 'ContactPoint',
-    telephone: '+255123456789',
+    telephone: '+255668746110',
     contactType: 'sales',
     availableLanguage: ['English', 'Swahili'],
   },
@@ -30,7 +30,7 @@ export const localBusinessData = {
     addressLocality: 'Dar es Salaam',
     addressCountry: 'TZ',
   },
-  telephone: '+255123456789',
+  telephone: '+255668746110',
   email: 'info@petrobridgesolutions.co.tz',
   openingHours: 'Mo-Fr 08:00-18:00, Sa 08:00-13:00',
 };

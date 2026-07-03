@@ -128,7 +128,7 @@ function PrivacyPolicy() {
               </p>
               <ul className="list-none text-navy-600 dark:text-navy-300 mb-8 space-y-2">
                 <li><strong>Email:</strong> privacy@petrobridgesolutions.co.tz</li>
-                <li><strong>Phone:</strong> +255 734 567 890</li>
+                <li><strong>Phone:</strong> +255 668 746 110</li>
                 <li><strong>Address:</strong> Mikocheni Light Industrial Area, Plot No. 87, Dar es Salaam, Tanzania</li>
               </ul>
             </div>

@@ -4,15 +4,15 @@ export const SITE_CONFIG = {
   description: "Tanzania's premier petroleum logistics coordination and delivery assurance company. Bridging the gap between fuel suppliers, transporters, and customers.",
   url: 'https://petrobridgesolutions.co.tz',
   email: 'info@petrobridgesolutions.co.tz',
-  phone: '+255 123 456 789',
-  whatsapp: '+255 123 456 789',
+  phone: '+255 668 746 110',
+  whatsapp: '+255 668 746 110',
   address: 'Dar es Salaam, Tanzania',
   founded: 2018,
   social: {
     linkedin: 'https://linkedin.com/company/petro-bridge',
     twitter: 'https://twitter.com/petrobridge',
-    facebook: 'https://facebook.com/petrobridge',
-    instagram: 'https://instagram.com/petrobridge',
+    facebook: 'https://www.facebook.com/profile.php?id=61591640129345',
+    instagram: 'https://www.instagram.com/petrobridge_solutions/',
   },
 } as const;
 
